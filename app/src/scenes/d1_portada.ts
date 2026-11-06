@@ -3,7 +3,7 @@
 // ESCENA 1 — Portada (fondo papel)
 // Voz: "Este es el video demo de Futuros Vivos. Aquí te mostramos cómo convertir un insight de Foresight
 // en un video corto."
-// Un sello naranja VIDEO DEMO cae; "Futuros Vivos" aparece en un papel amarillo con cinta; el título
+// Un sello morado VIDEO DEMO cae; "Futuros Vivos" aparece en un papel amarillo con cinta; el título
 // entra palabra por palabra, sincronizado con la voz, sobre dos tiras de papel. Valentina (puppet) saluda y
 // luego señala el título.
 import type { Frame, PostOverrides } from '../engine/scene';
@@ -63,12 +63,12 @@ export default class D1 extends Plate {
     const st = clamp((t - this.tDemo) / 0.22);
     if (st > 0) {
       at(c, 1500, 790, { s: 2.4 - 1.4 * ease.inQuad(st), r: -0.12, a: clamp(st * 2) }, () => {
-        c.strokeStyle = C.naranja; c.lineWidth = 9;
+        c.strokeStyle = C.morado; c.lineWidth = 9;
         c.beginPath(); c.roundRect(-245, -56, 490, 112, 14); c.stroke();
         c.lineWidth = 3; c.beginPath(); c.roundRect(-233, -44, 466, 88, 10); c.stroke();
-        text(c, 'VIDEO DEMO', 0, 22, { w: 800, size: 60, col: C.naranja, align: 'center', ls: 3 });
+        text(c, 'VIDEO DEMO', 0, 22, { w: 800, size: 60, col: C.morado, align: 'center', ls: 3 });
       });
-      burst(c, 1500, 790, t, this.tDemo + 0.22, C.naranja, 230, 12);
+      burst(c, 1500, 790, t, this.tDemo + 0.22, C.morado, 230, 12);
     }
     c.restore();
     return {};
