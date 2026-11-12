@@ -26,9 +26,9 @@ export const STYLE: 'scrapbook' | 'limpio' = 'scrapbook';
 
 // 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → agrega el logo del cliente (en app/public/logos/).
 /** Logos del cierre (archivos en app/public/logos/, blancos para fondo azul). Agrega aquí el del cliente.
- *  Pendiente: logo de ACH. Cuando esté en app/public/logos/ (blanco, fondo transparente), suma una línea:
- *  { file: 'logos/ach_logo.svg', height: 80 } */
+ *  ACH usa la versión blanca recortada (ach_logo_blanco.png); el original a color es Logo-ACH-Transferencias.png. */
 export const LOGOS: { file: string; height: number }[] = [
+  { file: 'logos/ach_logo_blanco.png', height: 100 },
   { file: 'logos/innlab_logo.svg', height: 62 },
   { file: 'logos/icesi_logo.svg', height: 115 },
 ];
