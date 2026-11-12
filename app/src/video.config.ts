@@ -33,7 +33,7 @@ export const LOGOS: { file: string; height: number }[] = [
   { file: 'logos/icesi_logo.svg', height: 115 },
 ];
 
-// 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → tus escenas y la primera frase de cada una (las d1…d7 son del demo).
+// 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → tus escenas y la primera frase de cada una (las i2_* son las del video de Aprendizaje 2 · Insight 2).
 /**
  * Escenas en orden. `file` = archivo en src/scenes/ (sin .ts).
  * `from` = un pedazo de la primera frase de la escena tal como está en guion/voz.txt:
