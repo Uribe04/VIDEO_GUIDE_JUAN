@@ -7,7 +7,7 @@ Plantilla para convertir insights del informe de Foresight en videos cortos anim
 2. **Sin voz aún** → `python3 analysis/placeholder_vo.py` (tiempos provisionales + audio en silencio).
 3. **Con voz** → `uv run --no-project --with onnxruntime --with numpy python analysis/preparar_voz.py <mp3>`: guarda el original, agrega el silencio de las carátulas (3,2 s al inicio, 7,1 s al final) y sincroniza. Revisa la salida: tiempos en orden y palabras con sentido. Las siglas, números y palabras en inglés van en `SPOKEN`.
 4. **Configuración** → `app/src/video.config.ts`: `CARATULA` (números de aprendizaje e insight), `SCENES` (archivo + frase `from`), `FOOTER`, `LOGOS`, `STYLE`.
-5. **Escenas** → `app/src/scenes/<archivo>.ts`. Cada una extiende `Plate`, resuelve sus tiempos en `setup()` con `this.S.word(...)` / `spoken(...)` y dibuja en `draw(c, t)`. Toda la API está en `_kit.ts` (referencia en `docs/03-escenas.md`). Las escenas `d1`…`d7` son el demo y sirven de ejemplo.
+5. **Escenas** → `app/src/scenes/<archivo>.ts`. Cada una extiende `Plate`, resuelve sus tiempos en `setup()` con `this.S.word(...)` / `spoken(...)` y dibuja en `draw(c, t)`. Toda la API está en `_kit.ts` (referencia en `docs/03-escenas.md`). Las escenas `i2_*` (Aprendizaje 2 · Insight 2, ACH) sirven de ejemplo.
 6. **Exportar** → `cd app && bun run render` → `out/video.mp4`.
 
 ## Reglas

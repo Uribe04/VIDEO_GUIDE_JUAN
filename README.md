@@ -96,7 +96,7 @@ analysis/
 app/
   src/video.config.ts  ← 👉 CONFIGURACIÓN: carátula (números), escenas, footer, logos, estilo
   src/scenes/_kit.ts   ← kit de escenas: colores, tipografía, íconos, personajes, efectos
-  src/scenes/d*.ts     ← 👉 las escenas del video demo (se reemplazan)
+  src/scenes/i2_*.ts   ← 👉 las escenas del video actual: Aprendizaje 2 · Insight 2, ACH (se reemplazan)
   src/scenes/caratula_*.ts ← carátulas de inicio y cierre (automáticas)
   public/personas/     ← puppets: valentina, andres, camila
   public/              ← fuentes, logos, personaje ilustrado anterior

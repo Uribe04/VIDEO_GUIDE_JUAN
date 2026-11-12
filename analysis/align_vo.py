@@ -45,6 +45,14 @@ SPOKEN = {
     "MP4": ["EME", "PE", "CUATRO"],
     "ElevenLabs": ["ELEVEN", "LABS"],
     "%": ["POR", "CIENTO"],
+    # Insight 2 (ACH)
+    "0,31": ["CERO", "COMA", "TREINTA", "Y", "UNO"],
+    "5": ["CINCO"],
+    "CDR": ["CE", "DE", "ERRE"],
+    "Open": ["OPEN"],
+    "Finance": ["FAINANS"],
+    "Banking": ["BANKIN"],
+    "checkbox": ["CHEKBOKS"],
 }
 
 

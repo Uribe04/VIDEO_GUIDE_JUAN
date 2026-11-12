@@ -9,23 +9,25 @@
  * Solo cambia los números: quedan como "Aprendizaje 3" e "Insight 2".
  */
 export const CARATULA = {
-  aprendizaje: 'X',
-  insight: 'Z',
+  aprendizaje: '2',
+  insight: '2',
   /** Título del video (debajo de los números). */
-  titulo: 'Cómo hacer videos de insights',
+  titulo: 'El consentimiento es el nuevo núcleo político de Open Finance',
   /** Línea pequeña de arriba: cliente y trimestre, o el proyecto. */
-  cliente: 'Futuros Vivos',
+  cliente: 'ACH · Q2 2026',
 };
 
 // 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → cliente, trimestre, tendencia/aprendizaje e insight.
 /** Footer de identificación (pastilla abajo a la izquierda en todas las escenas). [] para ocultarlo. */
-export const FOOTER: string[] = ['Foresight', 'Futuros Vivos', 'Video demo'];
+export const FOOTER: string[] = ['Foresight', 'ACH', 'Tendencia 2', 'Insight 2'];
 
 /** Estilo: 'scrapbook' (papel, cinta, marcador) o 'limpio' (flat, colores exactos de la marca). */
 export const STYLE: 'scrapbook' | 'limpio' = 'scrapbook';
 
 // 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → agrega el logo del cliente (en app/public/logos/).
-/** Logos del cierre (archivos en app/public/logos/, blancos para fondo azul). Agrega aquí el del cliente. */
+/** Logos del cierre (archivos en app/public/logos/, blancos para fondo azul). Agrega aquí el del cliente.
+ *  Pendiente: logo de ACH. Cuando esté en app/public/logos/ (blanco, fondo transparente), suma una línea:
+ *  { file: 'logos/ach_logo.svg', height: 80 } */
 export const LOGOS: { file: string; height: number }[] = [
   { file: 'logos/innlab_logo.svg', height: 62 },
   { file: 'logos/icesi_logo.svg', height: 115 },
@@ -38,11 +40,10 @@ export const LOGOS: { file: string; height: number }[] = [
  * el corte se hace justo antes de que la voz la diga (la primera escena no lo necesita).
  */
 export const SCENES: { file: string; from?: string }[] = [
-  { file: 'd1_portada' },
-  { file: 'd2_insight', from: 'Todo empieza con un insight' },
-  { file: 'd3_guion', from: 'escribe el guion en una tabla' },
-  { file: 'd4_voz', from: 'genera la voz en ElevenLabs' },
-  { file: 'd5_escenas', from: 'describe cada escena' },
-  { file: 'd6_exportar', from: 'Revisa el resultado' },
-  { file: 'd7_cierre', from: 'Del informe a un video' },
+  { file: 'i2_gancho' },
+  { file: 'i2_insight', from: 'El consentimiento es el nuevo núcleo' },
+  { file: 'i2_brecha', from: 'La infraestructura ya está lista' },
+  { file: 'i2_consentimiento', from: 'Por eso el consentimiento dejó' },
+  { file: 'i2_colombia', from: 'Para Colombia, el consentimiento' },
+  { file: 'i2_cierre', from: 'Sin consentimiento claro' },
 ];
