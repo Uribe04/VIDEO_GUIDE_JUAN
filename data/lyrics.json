@@ -1,786 +1,842 @@
 {
- "source": "placeholder_vo.py (provisional, no voiceover yet)",
+ "source": "align_vo.py (wav2vec2-base-960h CTC)",
  "lines": [
   {
    "text": "Aceptar términos y condiciones.",
-   "start": 3.2,
-   "end": 4.635,
+   "start": 3.24,
+   "end": 5.2,
    "words": [
     {
      "w": "Aceptar",
-     "start": 3.2,
-     "end": 3.541
+     "start": 3.24,
+     "end": 3.86
     },
     {
      "w": "términos",
-     "start": 3.57,
-     "end": 3.949
+     "start": 3.86,
+     "end": 4.36
     },
     {
      "w": "y",
-     "start": 3.982,
-     "end": 4.095
+     "start": 4.36,
+     "end": 4.39
     },
     {
      "w": "condiciones.",
-     "start": 4.105,
-     "end": 4.635
+     "start": 4.39,
+     "end": 5.2
     }
    ]
   },
   {
    "text": "¿Cuántas veces lo hiciste sin leer nada?",
-   "start": 5.031,
-   "end": 7.594,
+   "start": 5.52,
+   "end": 7.65,
    "words": [
     {
      "w": "¿Cuántas",
-     "start": 5.031,
-     "end": 5.528
+     "start": 5.52,
+     "end": 5.88
     },
     {
      "w": "veces",
-     "start": 5.572,
-     "end": 5.919
+     "start": 5.88,
+     "end": 6.06
     },
     {
      "w": "lo",
-     "start": 5.95,
-     "end": 6.148
+     "start": 6.06,
+     "end": 6.22
     },
     {
      "w": "hiciste",
-     "start": 6.166,
-     "end": 6.613
+     "start": 6.22,
+     "end": 6.63
     },
     {
      "w": "sin",
-     "start": 6.652,
-     "end": 6.9
+     "start": 6.63,
+     "end": 6.92
     },
     {
      "w": "leer",
-     "start": 6.922,
-     "end": 7.22
+     "start": 6.92,
+     "end": 7.3
     },
     {
      "w": "nada?",
-     "start": 7.246,
-     "end": 7.594
+     "start": 7.3,
+     "end": 7.65
     }
    ]
   },
   {
    "text": "El consentimiento es el nuevo núcleo político de Open Finance.",
-   "start": 8.374,
-   "end": 12.037,
+   "start": 8.03,
+   "end": 11.74,
    "words": [
     {
      "w": "El",
-     "start": 8.374,
-     "end": 8.561
+     "start": 8.03,
+     "end": 8.16
     },
     {
      "w": "consentimiento",
-     "start": 8.577,
-     "end": 9.324
+     "start": 8.16,
+     "end": 9.09
     },
     {
      "w": "es",
-     "start": 9.389,
-     "end": 9.575
+     "start": 9.09,
+     "end": 9.28
     },
     {
      "w": "el",
-     "start": 9.592,
-     "end": 9.778
+     "start": 9.28,
+     "end": 9.44
     },
     {
      "w": "nuevo",
-     "start": 9.795,
-     "end": 10.121
+     "start": 9.44,
+     "end": 9.86
     },
     {
      "w": "núcleo",
-     "start": 10.15,
-     "end": 10.523
+     "start": 9.86,
+     "end": 10.18
     },
     {
      "w": "político",
-     "start": 10.556,
-     "end": 11.022
+     "start": 10.18,
+     "end": 10.78
     },
     {
      "w": "de",
-     "start": 11.063,
-     "end": 11.25
+     "start": 10.78,
+     "end": 10.97
     },
     {
      "w": "Open",
-     "start": 11.266,
-     "end": 11.546
+     "start": 10.97,
+     "end": 11.38
     },
     {
      "w": "Finance.",
-     "start": 11.57,
-     "end": 12.037
+     "start": 11.38,
+     "end": 11.74
     }
    ]
   },
   {
    "text": "La infraestructura ya está lista, pero la confianza no.",
-   "start": 12.828,
-   "end": 16.141,
+   "start": 12.12,
+   "end": 15.48,
    "words": [
     {
      "w": "La",
-     "start": 12.828,
-     "end": 13.016
+     "start": 12.12,
+     "end": 12.2
     },
     {
      "w": "infraestructura",
-     "start": 13.033,
-     "end": 13.835
+     "start": 12.2,
+     "end": 13.1
     },
     {
      "w": "ya",
-     "start": 13.905,
-     "end": 14.093
+     "start": 13.1,
+     "end": 13.32
     },
     {
      "w": "está",
-     "start": 14.11,
-     "end": 14.393
+     "start": 13.32,
+     "end": 13.54
     },
     {
      "w": "lista,",
-     "start": 14.418,
-     "end": 14.795
+     "start": 13.54,
+     "end": 13.74
     },
     {
      "w": "pero",
-     "start": 14.828,
-     "end": 15.111
+     "start": 14.08,
+     "end": 14.32
     },
     {
      "w": "la",
-     "start": 15.135,
-     "end": 15.324
+     "start": 14.32,
+     "end": 14.43
     },
     {
      "w": "confianza",
-     "start": 15.341,
-     "end": 15.86
+     "start": 14.43,
+     "end": 15.19
     },
     {
      "w": "no.",
-     "start": 15.905,
-     "end": 16.141
+     "start": 15.19,
+     "end": 15.48
     }
    ]
   },
   {
    "text": "En Australia, solo el 0,31 % de los clientes usa el CDR.",
-   "start": 16.511,
-   "end": 20.925,
+   "start": 15.81,
+   "end": 20.66,
    "words": [
     {
      "w": "En",
-     "start": 16.511,
-     "end": 16.748
+     "start": 15.81,
+     "end": 15.96
     },
     {
      "w": "Australia,",
-     "start": 16.769,
-     "end": 17.48
+     "start": 15.96,
+     "end": 16.62
     },
     {
      "w": "solo",
-     "start": 17.542,
-     "end": 17.897
+     "start": 16.62,
+     "end": 16.86
     },
     {
      "w": "el",
-     "start": 17.928,
-     "end": 18.165
+     "start": 16.86,
+     "end": 17.06
     },
     {
      "w": "0,31",
-     "start": 18.186,
-     "end": 18.541
+     "start": 17.06,
+     "end": 18.22,
+     "syl": [
+      [
+       17.06,
+       17.38
+      ],
+      [
+       17.38,
+       17.62
+      ],
+      [
+       17.62,
+       17.94
+      ],
+      [
+       17.94,
+       18.04
+      ],
+      [
+       18.04,
+       18.22
+      ]
+     ]
     },
     {
      "w": "%",
-     "start": 18.572,
-     "end": 18.75
+     "start": 18.22,
+     "end": 18.76,
+     "syl": [
+      [
+       18.22,
+       18.42
+      ],
+      [
+       18.42,
+       18.76
+      ]
+     ]
     },
     {
      "w": "de",
-     "start": 18.766,
-     "end": 19.003
+     "start": 18.76,
+     "end": 18.86
     },
     {
      "w": "los",
-     "start": 19.023,
-     "end": 19.319
+     "start": 18.86,
+     "end": 19.02
     },
     {
      "w": "clientes",
-     "start": 19.345,
-     "end": 19.938
+     "start": 19.02,
+     "end": 19.62
     },
     {
      "w": "usa",
-     "start": 19.989,
-     "end": 20.286
+     "start": 19.62,
+     "end": 19.98
     },
     {
      "w": "el",
-     "start": 20.311,
-     "end": 20.548
+     "start": 19.98,
+     "end": 20.12
     },
     {
      "w": "CDR.",
-     "start": 20.569,
-     "end": 20.925
+     "start": 20.12,
+     "end": 20.66,
+     "syl": [
+      [
+       20.12,
+       20.32
+      ],
+      [
+       20.32,
+       20.48
+      ],
+      [
+       20.48,
+       20.66
+      ]
+     ]
     }
    ]
   },
   {
    "text": "En la Unión Europea, menos del 5 % de los consumidores usa Open Banking.",
-   "start": 21.306,
-   "end": 26.443,
+   "start": 21.02,
+   "end": 25.99,
    "words": [
     {
      "w": "En",
-     "start": 21.306,
-     "end": 21.525
+     "start": 21.02,
+     "end": 21.14
     },
     {
      "w": "la",
-     "start": 21.544,
-     "end": 21.763
+     "start": 21.14,
+     "end": 21.24
     },
     {
      "w": "Unión",
-     "start": 21.782,
-     "end": 22.166
+     "start": 21.24,
+     "end": 21.48
     },
     {
      "w": "Europea,",
-     "start": 22.2,
-     "end": 22.748
+     "start": 21.48,
+     "end": 22.16
     },
     {
      "w": "menos",
-     "start": 22.796,
-     "end": 23.179
+     "start": 22.16,
+     "end": 22.48
     },
     {
      "w": "del",
-     "start": 23.213,
-     "end": 23.487
+     "start": 22.48,
+     "end": 22.76
     },
     {
      "w": "5",
-     "start": 23.511,
-     "end": 23.675
+     "start": 22.76,
+     "end": 23.14
     },
     {
      "w": "%",
-     "start": 23.69,
-     "end": 23.854
+     "start": 23.14,
+     "end": 23.68,
+     "syl": [
+      [
+       23.14,
+       23.32
+      ],
+      [
+       23.32,
+       23.68
+      ]
+     ]
     },
     {
      "w": "de",
-     "start": 23.868,
-     "end": 24.088
+     "start": 23.68,
+     "end": 23.78
     },
     {
      "w": "los",
-     "start": 24.107,
-     "end": 24.381
+     "start": 23.78,
+     "end": 23.9
     },
     {
      "w": "consumidores",
-     "start": 24.405,
-     "end": 25.172
+     "start": 23.9,
+     "end": 24.74
     },
     {
      "w": "usa",
-     "start": 25.239,
-     "end": 25.513
+     "start": 24.74,
+     "end": 25.05
     },
     {
      "w": "Open",
-     "start": 25.537,
-     "end": 25.866
+     "start": 25.16,
+     "end": 25.56
     },
     {
      "w": "Banking.",
-     "start": 25.895,
-     "end": 26.443
+     "start": 25.56,
+     "end": 25.99
     }
    ]
   },
   {
    "text": "Por eso el consentimiento dejó de ser un checkbox.",
-   "start": 27.241,
-   "end": 30.525,
+   "start": 26.26,
+   "end": 28.84,
    "words": [
     {
      "w": "Por",
-     "start": 27.241,
-     "end": 27.496
+     "start": 26.26,
+     "end": 26.44
     },
     {
      "w": "eso",
-     "start": 27.519,
-     "end": 27.774
+     "start": 26.44,
+     "end": 26.62
     },
     {
      "w": "el",
-     "start": 27.796,
-     "end": 28.001
+     "start": 26.62,
+     "end": 26.72
     },
     {
      "w": "consentimiento",
-     "start": 28.019,
-     "end": 28.836
+     "start": 26.72,
+     "end": 27.58
     },
     {
      "w": "dejó",
-     "start": 28.907,
-     "end": 29.214
+     "start": 27.58,
+     "end": 27.96
     },
     {
      "w": "de",
-     "start": 29.241,
-     "end": 29.445
+     "start": 27.96,
+     "end": 28.06
     },
     {
      "w": "ser",
-     "start": 29.463,
-     "end": 29.719
+     "start": 28.06,
+     "end": 28.24
     },
     {
      "w": "un",
-     "start": 29.741,
-     "end": 29.945
+     "start": 28.24,
+     "end": 28.33
     },
     {
      "w": "checkbox.",
-     "start": 29.963,
-     "end": 30.525
+     "start": 28.33,
+     "end": 28.84
     }
    ]
   },
   {
    "text": "Ahora hay que decidir qué se comparte, con quién, por cuánto tiempo y para qué propósito.",
-   "start": 30.924,
-   "end": 36.796,
+   "start": 29.07,
+   "end": 34.64,
    "words": [
     {
      "w": "Ahora",
-     "start": 30.924,
-     "end": 31.284
+     "start": 29.07,
+     "end": 29.58
     },
     {
      "w": "hay",
-     "start": 31.315,
-     "end": 31.573
+     "start": 29.58,
+     "end": 29.74
     },
     {
      "w": "que",
-     "start": 31.595,
-     "end": 31.852
+     "start": 29.74,
+     "end": 29.9
     },
     {
      "w": "decidir",
-     "start": 31.874,
-     "end": 32.337
+     "start": 29.9,
+     "end": 30.36
     },
     {
      "w": "qué",
-     "start": 32.378,
-     "end": 32.635
+     "start": 30.48,
+     "end": 30.64
     },
     {
      "w": "se",
-     "start": 32.657,
-     "end": 32.863
+     "start": 30.64,
+     "end": 30.8
     },
     {
      "w": "comparte,",
-     "start": 32.881,
-     "end": 33.447
+     "start": 30.8,
+     "end": 31.2
     },
     {
      "w": "con",
-     "start": 33.496,
-     "end": 33.753
+     "start": 31.58,
+     "end": 31.82
     },
     {
      "w": "quién,",
-     "start": 33.775,
-     "end": 34.187
+     "start": 31.82,
+     "end": 32.14
     },
     {
      "w": "por",
-     "start": 34.222,
-     "end": 34.48
+     "start": 32.42,
+     "end": 32.56
     },
     {
      "w": "cuánto",
-     "start": 34.502,
-     "end": 34.913
+     "start": 32.66,
+     "end": 33.06
     },
     {
      "w": "tiempo",
-     "start": 34.949,
-     "end": 35.361
+     "start": 33.06,
+     "end": 33.54
     },
     {
      "w": "y",
-     "start": 35.396,
-     "end": 35.551
+     "start": 33.54,
+     "end": 33.7
     },
     {
      "w": "para",
-     "start": 35.564,
-     "end": 35.873
+     "start": 33.7,
+     "end": 33.9
     },
     {
      "w": "qué",
-     "start": 35.9,
-     "end": 36.157
+     "start": 34.01,
+     "end": 34.14
     },
     {
      "w": "propósito.",
-     "start": 36.179,
-     "end": 36.796
+     "start": 34.14,
+     "end": 34.64
     }
    ]
   },
   {
    "text": "Y cómo se revoca.",
-   "start": 37.2,
-   "end": 38.633,
+   "start": 35.07,
+   "end": 36.04,
    "words": [
     {
      "w": "Y",
-     "start": 37.2,
-     "end": 37.386
+     "start": 35.07,
+     "end": 35.16
     },
     {
      "w": "cómo",
-     "start": 37.402,
-     "end": 37.774
+     "start": 35.3,
+     "end": 35.64
     },
     {
      "w": "se",
-     "start": 37.806,
-     "end": 38.054
+     "start": 35.64,
+     "end": 35.78
     },
     {
      "w": "revoca.",
-     "start": 38.075,
-     "end": 38.633
+     "start": 35.78,
+     "end": 36.04
     }
    ]
   },
   {
    "text": "Para Colombia, el consentimiento debe tratarse como un producto, no solo como un requisito legal.",
-   "start": 39.431,
-   "end": 44.956,
+   "start": 36.5,
+   "end": 42.02,
    "words": [
     {
      "w": "Para",
-     "start": 39.431,
-     "end": 39.703
+     "start": 36.5,
+     "end": 36.74
     },
     {
      "w": "Colombia,",
-     "start": 39.726,
-     "end": 40.224
+     "start": 36.74,
+     "end": 37.33
     },
     {
      "w": "el",
-     "start": 40.267,
-     "end": 40.448
+     "start": 37.33,
+     "end": 37.46
     },
     {
      "w": "consentimiento",
-     "start": 40.464,
-     "end": 41.188
+     "start": 37.46,
+     "end": 38.3
     },
     {
      "w": "debe",
-     "start": 41.251,
-     "end": 41.522
+     "start": 38.3,
+     "end": 38.52
     },
     {
      "w": "tratarse",
-     "start": 41.546,
-     "end": 41.998
+     "start": 38.52,
+     "end": 39.08
     },
     {
      "w": "como",
-     "start": 42.037,
-     "end": 42.309
+     "start": 39.08,
+     "end": 39.32
     },
     {
      "w": "un",
-     "start": 42.332,
-     "end": 42.513
+     "start": 39.32,
+     "end": 39.49
     },
     {
      "w": "producto,",
-     "start": 42.529,
-     "end": 43.026
+     "start": 39.49,
+     "end": 39.77
     },
     {
      "w": "no",
-     "start": 43.07,
-     "end": 43.251
+     "start": 40.17,
+     "end": 40.48
     },
     {
      "w": "solo",
-     "start": 43.266,
-     "end": 43.538
+     "start": 40.48,
+     "end": 40.8
     },
     {
      "w": "como",
-     "start": 43.561,
-     "end": 43.833
+     "start": 40.8,
+     "end": 41.04
     },
     {
      "w": "un",
-     "start": 43.856,
-     "end": 44.037
+     "start": 41.04,
+     "end": 41.18
     },
     {
      "w": "requisito",
-     "start": 44.053,
-     "end": 44.55
+     "start": 41.18,
+     "end": 41.68
     },
     {
      "w": "legal.",
-     "start": 44.594,
-     "end": 44.956
+     "start": 41.68,
+     "end": 42.02
     }
    ]
   },
   {
    "text": "Sin trazabilidad y sin beneficio percibido, ni la infraestructura ni la norma bastan.",
-   "start": 45.337,
-   "end": 50.117,
+   "start": 42.25,
+   "end": 47.04,
    "words": [
     {
      "w": "Sin",
-     "start": 45.337,
-     "end": 45.561
+     "start": 42.25,
+     "end": 42.46
     },
     {
      "w": "trazabilidad",
-     "start": 45.58,
-     "end": 46.207
+     "start": 42.46,
+     "end": 43.28
     },
     {
      "w": "y",
-     "start": 46.261,
-     "end": 46.395
+     "start": 43.28,
+     "end": 43.44
     },
     {
      "w": "sin",
-     "start": 46.407,
-     "end": 46.631
+     "start": 43.44,
+     "end": 43.68
     },
     {
      "w": "beneficio",
-     "start": 46.65,
-     "end": 47.142
+     "start": 43.68,
+     "end": 44.18
     },
     {
      "w": "percibido,",
-     "start": 47.185,
-     "end": 47.722
+     "start": 44.18,
+     "end": 44.88
     },
     {
      "w": "ni",
-     "start": 47.769,
-     "end": 47.948
+     "start": 44.88,
+     "end": 45.1
     },
     {
      "w": "la",
-     "start": 47.963,
-     "end": 48.142
+     "start": 45.1,
+     "end": 45.18
     },
     {
      "w": "infraestructura",
-     "start": 48.158,
-     "end": 48.918
+     "start": 45.18,
+     "end": 46.08
     },
     {
      "w": "ni",
-     "start": 48.985,
-     "end": 49.164
+     "start": 46.08,
+     "end": 46.24
     },
     {
      "w": "la",
-     "start": 49.179,
-     "end": 49.358
+     "start": 46.24,
+     "end": 46.42
     },
     {
      "w": "norma",
-     "start": 49.374,
-     "end": 49.687
+     "start": 46.42,
+     "end": 46.8
     },
     {
      "w": "bastan.",
-     "start": 49.714,
-     "end": 50.117
+     "start": 46.8,
+     "end": 47.04
     }
    ]
   },
   {
    "text": "¿Nuestro consentimiento se entiende, o solo se acepta?",
-   "start": 50.502,
-   "end": 53.431,
+   "start": 47.55,
+   "end": 50.36,
    "words": [
     {
      "w": "¿Nuestro",
-     "start": 50.502,
-     "end": 50.935
+     "start": 47.55,
+     "end": 47.86
     },
     {
      "w": "consentimiento",
-     "start": 50.972,
-     "end": 51.664
+     "start": 47.86,
+     "end": 48.58
     },
     {
      "w": "se",
-     "start": 51.725,
-     "end": 51.898
+     "start": 48.58,
+     "end": 48.68
     },
     {
      "w": "entiende,",
-     "start": 51.913,
-     "end": 52.389
+     "start": 48.68,
+     "end": 49.3
     },
     {
      "w": "o",
-     "start": 52.43,
-     "end": 52.56
+     "start": 49.48,
+     "end": 49.7
     },
     {
      "w": "solo",
-     "start": 52.571,
-     "end": 52.831
+     "start": 49.7,
+     "end": 50.02
     },
     {
      "w": "se",
-     "start": 52.853,
-     "end": 53.026
+     "start": 50.02,
+     "end": 50.1
     },
     {
      "w": "acepta?",
-     "start": 53.042,
-     "end": 53.431
+     "start": 50.1,
+     "end": 50.36
     }
    ]
   },
   {
    "text": "Sin consentimiento claro, Open Finance parece extracción de datos, no empoderamiento financiero.",
-   "start": 54.215,
-   "end": 58.617,
+   "start": 50.91,
+   "end": 56.58,
    "words": [
     {
      "w": "Sin",
-     "start": 54.215,
-     "end": 54.402
+     "start": 50.91,
+     "end": 51.1
     },
     {
      "w": "consentimiento",
-     "start": 54.419,
-     "end": 55.019
+     "start": 51.1,
+     "end": 51.88
     },
     {
      "w": "claro,",
-     "start": 55.071,
-     "end": 55.371
+     "start": 51.88,
+     "end": 52.27
     },
     {
      "w": "Open",
-     "start": 55.397,
-     "end": 55.622
+     "start": 52.4,
+     "end": 52.8
     },
     {
      "w": "Finance",
-     "start": 55.642,
-     "end": 55.98
+     "start": 52.8,
+     "end": 53.26
     },
     {
      "w": "parece",
-     "start": 56.009,
-     "end": 56.309
+     "start": 53.26,
+     "end": 53.72
     },
     {
      "w": "extracción",
-     "start": 56.335,
-     "end": 56.785
+     "start": 53.72,
+     "end": 54.36
     },
     {
      "w": "de",
-     "start": 56.824,
-     "end": 56.974
+     "start": 54.36,
+     "end": 54.5
     },
     {
      "w": "datos,",
-     "start": 56.987,
-     "end": 57.288
+     "start": 54.5,
+     "end": 54.66
     },
     {
      "w": "no",
-     "start": 57.314,
-     "end": 57.464
+     "start": 55.03,
+     "end": 55.32
     },
     {
      "w": "empoderamiento",
-     "start": 57.477,
-     "end": 58.077
+     "start": 55.32,
+     "end": 56.1
     },
     {
      "w": "financiero.",
-     "start": 58.129,
-     "end": 58.617
+     "start": 56.1,
+     "end": 56.58
     }
    ]
   },
   {
    "text": "Futuros Vivos, por InnLab.",
-   "start": 59.009,
-   "end": 60.456,
+   "start": 57.1,
+   "end": 59.08,
    "words": [
     {
      "w": "Futuros",
-     "start": 59.009,
-     "end": 59.405
+     "start": 57.1,
+     "end": 57.66
     },
     {
      "w": "Vivos,",
-     "start": 59.439,
-     "end": 59.791
+     "start": 57.66,
+     "end": 58.12
     },
     {
      "w": "por",
-     "start": 59.822,
-     "end": 60.042
+     "start": 58.38,
+     "end": 58.63
     },
     {
      "w": "InnLab.",
-     "start": 60.061,
-     "end": 60.456
+     "start": 58.63,
+     "end": 59.08
     }
    ]
   }
