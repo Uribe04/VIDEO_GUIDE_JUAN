@@ -82,7 +82,7 @@ bun run render:hq     # más suave (desenfoque de movimiento): out/video-hq.mp4
 ```
 guion/
   voz.txt              ← el texto hablado, frase por frase (fuente de verdad)
-  guion.md             ← el guion del video demo (tabla + texto para ElevenLabs)
+  a2_i2_consentimiento.md ← el guion de este video (tabla + texto para ElevenLabs)
   plantilla-guion.md   ← plantilla en blanco para un video nuevo
 audio/
   voiceover_original.mp3 ← 👉 la voz de ElevenLabs (se reemplaza en cada video)
