@@ -11,16 +11,16 @@
  */
 export const CARATULA = {
   aprendizaje: '2',
-  insight: '2',
+  insight: 'General',
   /** Título del video (debajo de los números). */
-  titulo: 'El consentimiento es el nuevo núcleo político de Open Finance',
+  titulo: 'Regulación que abre, no fragmenta',
   /** Línea pequeña de arriba: cliente y trimestre, o el proyecto. */
   cliente: 'ACH · Q2 2026',
 };
 
 // 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → cliente, trimestre, tendencia/aprendizaje e insight.
 /** Footer de identificación (pastilla abajo a la izquierda en todas las escenas). [] para ocultarlo. */
-export const FOOTER: string[] = ['Foresight', 'ACH', 'Tendencia 2', 'Insight 2'];
+export const FOOTER: string[] = ['Foresight', 'ACH', 'Tendencia 2', 'General'];
 
 /** Estilo: 'scrapbook' (papel, cinta, marcador) o 'limpio' (flat, colores exactos de la marca). */
 export const STYLE: 'scrapbook' | 'limpio' = 'scrapbook';
@@ -34,17 +34,17 @@ export const LOGOS: { file: string; height: number }[] = [
   { file: 'logos/icesi_logo.svg', height: 115 },
 ];
 
-// 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → tus escenas y la primera frase de cada una (las i2_* son las del video de Aprendizaje 2 · Insight 2).
+// 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → tus escenas y la primera frase de cada una (las g2_* son las del video general del Aprendizaje 2).
 /**
  * Escenas en orden. `file` = archivo en src/scenes/ (sin .ts).
  * `from` = un pedazo de la primera frase de la escena tal como está en guion/voz.txt:
  * el corte se hace justo antes de que la voz la diga (la primera escena no lo necesita).
  */
 export const SCENES: { file: string; from?: string }[] = [
-  { file: 'i2_gancho' },
-  { file: 'i2_insight', from: 'El consentimiento es el nuevo núcleo' },
-  { file: 'i2_brecha', from: 'La infraestructura ya está lista' },
-  { file: 'i2_consentimiento', from: 'Por eso el consentimiento dejó' },
-  { file: 'i2_colombia', from: 'Para Colombia, el consentimiento' },
-  { file: 'i2_cierre', from: 'Sin consentimiento claro' },
+  { file: 'g2_gancho' },
+  { file: 'g2_aprendizaje', from: 'Aprendizaje 2: regulación' },
+  { file: 'g2_insights', from: 'Lo vimos en tres insights' },
+  { file: 'g2_tendencias', from: 'Qué viene' },
+  { file: 'g2_colombia', from: 'Para Colombia, la ventaja' },
+  { file: 'g2_cierre', from: 'Abrir con reglas' },
 ];

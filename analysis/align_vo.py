@@ -45,6 +45,8 @@ SPOKEN = {
     "MP4": ["EME", "PE", "CUATRO"],
     "ElevenLabs": ["ELEVEN", "LABS"],
     "%": ["POR", "CIENTO"],
+    # General del Aprendizaje 2 (ACH)
+    "2": ["DOS"],
     # Insight 2 (ACH)
     "0,31": ["CERO", "COMA", "TREINTA", "Y", "UNO"],
     "5": ["CINCO"],
