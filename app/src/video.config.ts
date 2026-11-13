@@ -7,6 +7,7 @@
 /**
  * CARÁTULA de inicio y de cierre (salen solas en todos los videos).
  * Solo cambia los números: quedan como "Aprendizaje 3" e "Insight 2".
+ * Para el video general de un aprendizaje usa insight: 'General' (la carátula dice "Aprendizaje 3 · General").
  */
 export const CARATULA = {
   aprendizaje: '2',
