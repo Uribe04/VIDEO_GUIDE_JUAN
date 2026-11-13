@@ -1,794 +1,892 @@
 {
- "source": "placeholder_vo.py (provisional, no voiceover yet)",
+ "source": "align_vo.py (wav2vec2-base-960h CTC)",
  "lines": [
   {
    "text": "Imagina una casa construida cuarto por cuarto, sin plano.",
-   "start": 3.2,
-   "end": 6.501,
+   "start": 3.25,
+   "end": 6.93,
    "words": [
     {
      "w": "Imagina",
-     "start": 3.2,
-     "end": 3.612
+     "start": 3.25,
+     "end": 3.78
     },
     {
      "w": "una",
-     "start": 3.648,
-     "end": 3.877
+     "start": 3.78,
+     "end": 3.95
     },
     {
      "w": "casa",
-     "start": 3.897,
-     "end": 4.171
+     "start": 3.95,
+     "end": 4.22
     },
     {
      "w": "construida",
-     "start": 4.195,
-     "end": 4.744
+     "start": 4.22,
+     "end": 4.85
     },
     {
      "w": "cuarto",
-     "start": 4.792,
-     "end": 5.158
+     "start": 5.0,
+     "end": 5.32
     },
     {
      "w": "por",
-     "start": 5.19,
-     "end": 5.419
+     "start": 5.32,
+     "end": 5.44
     },
     {
      "w": "cuarto,",
-     "start": 5.439,
-     "end": 5.851
+     "start": 5.44,
+     "end": 5.87
     },
     {
      "w": "sin",
-     "start": 5.887,
-     "end": 6.115
+     "start": 6.31,
+     "end": 6.58
     },
     {
      "w": "plano.",
-     "start": 6.135,
-     "end": 6.501
+     "start": 6.58,
+     "end": 6.93
     }
    ]
   },
   {
    "text": "Cada parte funciona, pero la casa no.",
-   "start": 6.883,
-   "end": 9.453,
+   "start": 7.32,
+   "end": 9.86,
    "words": [
     {
      "w": "Cada",
-     "start": 6.883,
-     "end": 7.201
-    },
-    {
-     "w": "parte",
-     "start": 7.229,
+     "start": 7.32,
      "end": 7.6
     },
     {
+     "w": "parte",
+     "start": 7.6,
+     "end": 7.92
+    },
+    {
      "w": "funciona,",
-     "start": 7.632,
-     "end": 8.215
+     "start": 7.92,
+     "end": 8.46
     },
     {
      "w": "pero",
-     "start": 8.266,
-     "end": 8.584
+     "start": 8.7,
+     "end": 8.96
     },
     {
      "w": "la",
-     "start": 8.612,
-     "end": 8.824
+     "start": 8.96,
+     "end": 9.12
     },
     {
      "w": "casa",
-     "start": 8.842,
-     "end": 9.16
+     "start": 9.12,
+     "end": 9.48
     },
     {
      "w": "no.",
-     "start": 9.188,
-     "end": 9.453
+     "start": 9.61,
+     "end": 9.86
     }
    ]
   },
   {
    "text": "Así está Colombia: ya avanzó, pero regula por piezas, no por arquitectura.",
-   "start": 10.226,
-   "end": 14.609,
+   "start": 10.27,
+   "end": 15.47,
    "words": [
     {
      "w": "Así",
-     "start": 10.226,
-     "end": 10.461
+     "start": 10.27,
+     "end": 10.7
     },
     {
      "w": "está",
-     "start": 10.481,
-     "end": 10.763
+     "start": 10.7,
+     "end": 10.98
     },
     {
      "w": "Colombia:",
-     "start": 10.788,
-     "end": 11.305
+     "start": 10.98,
+     "end": 12.0
     },
     {
      "w": "ya",
-     "start": 11.35,
-     "end": 11.538
+     "start": 12.0,
+     "end": 12.06
     },
     {
      "w": "avanzó,",
-     "start": 11.554,
-     "end": 11.977
+     "start": 12.06,
+     "end": 12.56
     },
     {
      "w": "pero",
-     "start": 12.014,
-     "end": 12.296
+     "start": 12.76,
+     "end": 13.04
     },
     {
      "w": "regula",
-     "start": 12.32,
-     "end": 12.696
+     "start": 13.04,
+     "end": 13.4
     },
     {
      "w": "por",
-     "start": 12.729,
-     "end": 12.964
+     "start": 13.4,
+     "end": 13.56
     },
     {
      "w": "piezas,",
-     "start": 12.985,
-     "end": 13.408
+     "start": 13.66,
+     "end": 14.14
     },
     {
      "w": "no",
-     "start": 13.444,
-     "end": 13.632
+     "start": 14.33,
+     "end": 14.62
     },
     {
      "w": "por",
-     "start": 13.649,
-     "end": 13.884
+     "start": 14.62,
+     "end": 14.8
     },
     {
      "w": "arquitectura.",
-     "start": 13.904,
-     "end": 14.609
+     "start": 14.8,
+     "end": 15.47
     }
    ]
   },
   {
    "text": "Entre 2021 y 2024 llegaron el sandbox, Open Banking y Open Finance.",
-   "start": 15.42,
-   "end": 19.82,
+   "start": 15.81,
+   "end": 21.5,
    "words": [
     {
      "w": "Entre",
-     "start": 15.42,
-     "end": 15.778
+     "start": 15.81,
+     "end": 16.1
     },
     {
      "w": "2021",
-     "start": 15.809,
-     "end": 16.116
+     "start": 16.1,
+     "end": 17.0,
+     "syl": [
+      [
+       16.1,
+       16.32
+      ],
+      [
+       16.32,
+       16.5
+      ],
+      [
+       16.5,
+       17.0
+      ]
+     ]
     },
     {
      "w": "y",
-     "start": 16.143,
-     "end": 16.296
+     "start": 17.0,
+     "end": 17.09
     },
     {
      "w": "2024",
-     "start": 16.309,
-     "end": 16.616
+     "start": 17.09,
+     "end": 18.22,
+     "syl": [
+      [
+       17.09,
+       17.3
+      ],
+      [
+       17.3,
+       17.5
+      ],
+      [
+       17.5,
+       18.22
+      ]
+     ]
     },
     {
      "w": "llegaron",
-     "start": 16.643,
-     "end": 17.154
+     "start": 18.22,
+     "end": 18.66
     },
     {
      "w": "el",
-     "start": 17.198,
-     "end": 17.403
+     "start": 18.66,
+     "end": 18.84
     },
     {
      "w": "sandbox,",
-     "start": 17.42,
-     "end": 17.931
+     "start": 18.84,
+     "end": 19.42
     },
     {
      "w": "Open",
-     "start": 17.976,
-     "end": 18.283
+     "start": 19.57,
+     "end": 19.96
     },
     {
      "w": "Banking",
-     "start": 18.309,
-     "end": 18.769
+     "start": 19.96,
+     "end": 20.46
     },
     {
      "w": "y",
-     "start": 18.809,
-     "end": 18.963
+     "start": 20.46,
+     "end": 20.66
     },
     {
      "w": "Open",
-     "start": 18.976,
-     "end": 19.283
+     "start": 20.66,
+     "end": 21.0
     },
     {
      "w": "Finance.",
-     "start": 19.309,
-     "end": 19.82
+     "start": 21.0,
+     "end": 21.5
     }
    ]
   },
   {
    "text": "Y el ecosistema fintech creció con fuerza.",
-   "start": 20.215,
-   "end": 22.77,
+   "start": 21.8,
+   "end": 24.24,
    "words": [
     {
      "w": "Y",
-     "start": 20.215,
-     "end": 20.358
+     "start": 21.8,
+     "end": 21.92
     },
     {
      "w": "el",
-     "start": 20.37,
-     "end": 20.561
+     "start": 21.92,
+     "end": 21.98
     },
     {
      "w": "ecosistema",
-     "start": 20.578,
-     "end": 21.15
+     "start": 21.98,
+     "end": 22.64
     },
     {
      "w": "fintech",
-     "start": 21.2,
-     "end": 21.629
+     "start": 22.64,
+     "end": 23.0
     },
     {
      "w": "creció",
-     "start": 21.667,
-     "end": 22.048
+     "start": 23.14,
+     "end": 23.6
     },
     {
      "w": "con",
-     "start": 22.081,
-     "end": 22.32
+     "start": 23.6,
+     "end": 23.82
     },
     {
      "w": "fuerza.",
-     "start": 22.341,
-     "end": 22.77
+     "start": 23.82,
+     "end": 24.24
     }
    ]
   },
   {
    "text": "Pero ese crecimiento se concentra.",
-   "start": 23.557,
-   "end": 25.365,
+   "start": 24.5,
+   "end": 26.34,
    "words": [
     {
      "w": "Pero",
-     "start": 23.557,
-     "end": 23.813
+     "start": 24.5,
+     "end": 24.78
     },
     {
      "w": "ese",
-     "start": 23.835,
-     "end": 24.048
+     "start": 24.78,
+     "end": 24.98
     },
     {
      "w": "crecimiento",
-     "start": 24.067,
-     "end": 24.62
+     "start": 24.98,
+     "end": 25.68
     },
     {
      "w": "se",
-     "start": 24.669,
-     "end": 24.839
+     "start": 25.68,
+     "end": 25.82
     },
     {
      "w": "concentra.",
-     "start": 24.854,
-     "end": 25.365
+     "start": 25.82,
+     "end": 26.34
     }
    ]
   },
   {
    "text": "Crédito virtual, con el 35,6 %, y pagos digitales, con el 28,8 %, suman casi dos tercios del ecosistema.",
-   "start": 25.759,
-   "end": 32.737,
+   "start": 26.82,
+   "end": 35.77,
    "words": [
     {
      "w": "Crédito",
-     "start": 25.759,
-     "end": 26.229
+     "start": 26.82,
+     "end": 27.26
     },
     {
      "w": "virtual,",
-     "start": 26.27,
-     "end": 26.792
+     "start": 27.26,
+     "end": 27.84
     },
     {
      "w": "con",
-     "start": 26.838,
-     "end": 27.099
+     "start": 27.84,
+     "end": 28.02
     },
     {
      "w": "el",
-     "start": 27.121,
-     "end": 27.33
+     "start": 28.02,
+     "end": 28.12
     },
     {
      "w": "35,6",
-     "start": 27.348,
-     "end": 27.662
+     "start": 28.12,
+     "end": 29.38,
+     "syl": [
+      [
+       28.12,
+       28.33
+      ],
+      [
+       28.33,
+       28.5
+      ],
+      [
+       28.5,
+       28.84
+      ],
+      [
+       28.84,
+       29.14
+      ],
+      [
+       29.14,
+       29.38
+      ]
+     ]
     },
     {
      "w": "%,",
-     "start": 27.689,
-     "end": 27.898
+     "start": 29.38,
+     "end": 29.83,
+     "syl": [
+      [
+       29.38,
+       29.56
+      ],
+      [
+       29.56,
+       29.83
+      ]
+     ]
     },
     {
      "w": "y",
-     "start": 27.916,
-     "end": 28.072
+     "start": 30.1,
+     "end": 30.26
     },
     {
      "w": "pagos",
-     "start": 28.086,
-     "end": 28.451
+     "start": 30.26,
+     "end": 30.58
     },
     {
      "w": "digitales,",
-     "start": 28.483,
-     "end": 29.11
+     "start": 30.58,
+     "end": 31.2
     },
     {
      "w": "con",
-     "start": 29.164,
-     "end": 29.425
+     "start": 31.2,
+     "end": 31.4
     },
     {
      "w": "el",
-     "start": 29.448,
-     "end": 29.657
+     "start": 31.4,
+     "end": 31.5
     },
     {
      "w": "28,8",
-     "start": 29.675,
-     "end": 29.988
+     "start": 31.5,
+     "end": 32.61,
+     "syl": [
+      [
+       31.5,
+       32.07
+      ],
+      [
+       32.07,
+       32.28
+      ],
+      [
+       32.28,
+       32.61
+      ]
+     ]
     },
     {
      "w": "%,",
-     "start": 30.016,
-     "end": 30.224
+     "start": 32.61,
+     "end": 33.19,
+     "syl": [
+      [
+       32.61,
+       32.78
+      ],
+      [
+       32.78,
+       33.19
+      ]
+     ]
     },
     {
      "w": "suman",
-     "start": 30.243,
-     "end": 30.608
+     "start": 33.48,
+     "end": 33.84
     },
     {
      "w": "casi",
-     "start": 30.64,
-     "end": 30.953
+     "start": 33.84,
+     "end": 34.24
     },
     {
      "w": "dos",
-     "start": 30.98,
-     "end": 31.241
+     "start": 34.24,
+     "end": 34.56
     },
     {
      "w": "tercios",
-     "start": 31.264,
-     "end": 31.734
+     "start": 34.56,
+     "end": 34.96
     },
     {
      "w": "del",
-     "start": 31.775,
-     "end": 32.036
+     "start": 34.96,
+     "end": 35.08
     },
     {
      "w": "ecosistema.",
-     "start": 32.059,
-     "end": 32.737
+     "start": 35.08,
+     "end": 35.77
     }
    ]
   },
   {
    "text": "La regulación acompaña el crecimiento, pero no lo ordena.",
-   "start": 33.546,
-   "end": 36.844,
+   "start": 36.1,
+   "end": 39.37,
    "words": [
     {
      "w": "La",
-     "start": 33.546,
-     "end": 33.729
+     "start": 36.1,
+     "end": 36.24
     },
     {
      "w": "regulación",
-     "start": 33.745,
-     "end": 34.295
+     "start": 36.24,
+     "end": 36.86
     },
     {
      "w": "acompaña",
-     "start": 34.342,
-     "end": 34.8
+     "start": 36.86,
+     "end": 37.42
     },
     {
      "w": "el",
-     "start": 34.84,
-     "end": 35.023
+     "start": 37.42,
+     "end": 37.52
     },
     {
      "w": "crecimiento,",
-     "start": 35.039,
-     "end": 35.68
+     "start": 37.52,
+     "end": 38.3
     },
     {
      "w": "pero",
-     "start": 35.735,
-     "end": 36.01
+     "start": 38.3,
+     "end": 38.66
     },
     {
      "w": "no",
-     "start": 36.034,
-     "end": 36.217
+     "start": 38.66,
+     "end": 38.86
     },
     {
      "w": "lo",
-     "start": 36.233,
-     "end": 36.416
+     "start": 38.86,
+     "end": 38.92
     },
     {
      "w": "ordena.",
-     "start": 36.432,
-     "end": 36.844
+     "start": 38.92,
+     "end": 39.37
     }
    ]
   },
   {
    "text": "Los innovadores operan con incertidumbre, y los usuarios quedan en zonas grises.",
-   "start": 37.23,
-   "end": 41.64,
+   "start": 39.66,
+   "end": 44.09,
    "words": [
     {
      "w": "Los",
-     "start": 37.23,
-     "end": 37.449
+     "start": 39.66,
+     "end": 39.84
     },
     {
      "w": "innovadores",
-     "start": 37.469,
-     "end": 38.04
+     "start": 39.84,
+     "end": 40.56
     },
     {
      "w": "operan",
-     "start": 38.09,
-     "end": 38.442
+     "start": 40.56,
+     "end": 40.9
     },
     {
      "w": "con",
-     "start": 38.472,
-     "end": 38.692
+     "start": 40.9,
+     "end": 41.06
     },
     {
      "w": "incertidumbre,",
-     "start": 38.711,
-     "end": 39.415
+     "start": 41.06,
+     "end": 41.87
     },
     {
      "w": "y",
-     "start": 39.476,
-     "end": 39.608
+     "start": 42.08,
+     "end": 42.2
     },
     {
      "w": "los",
-     "start": 39.619,
-     "end": 39.839
+     "start": 42.2,
+     "end": 42.38
     },
     {
      "w": "usuarios",
-     "start": 39.858,
-     "end": 40.298
+     "start": 42.38,
+     "end": 43.0
     },
     {
      "w": "quedan",
-     "start": 40.336,
-     "end": 40.688
+     "start": 43.0,
+     "end": 43.34
     },
     {
      "w": "en",
-     "start": 40.718,
-     "end": 40.894
+     "start": 43.34,
+     "end": 43.46
     },
     {
      "w": "zonas",
-     "start": 40.909,
-     "end": 41.217
+     "start": 43.46,
+     "end": 43.78
     },
     {
      "w": "grises.",
-     "start": 41.244,
-     "end": 41.64
+     "start": 43.78,
+     "end": 44.09
     }
    ]
   },
   {
    "text": "Para ACH, el reto es pasar de regular vertical por vertical a diseñar una arquitectura transversal: estándares, consentimiento y gobernanza de datos.",
-   "start": 42.024,
-   "end": 50.142,
+   "start": 44.56,
+   "end": 54.2,
    "words": [
     {
      "w": "Para",
-     "start": 42.024,
-     "end": 42.286
+     "start": 44.56,
+     "end": 44.84
     },
     {
      "w": "ACH,",
-     "start": 42.308,
-     "end": 42.57
+     "start": 44.84,
+     "end": 45.66,
+     "syl": [
+      [
+       44.84,
+       45.02
+      ],
+      [
+       45.02,
+       45.24
+      ],
+      [
+       45.24,
+       45.66
+      ]
+     ]
     },
     {
      "w": "el",
-     "start": 42.593,
-     "end": 42.767
+     "start": 45.66,
+     "end": 45.88
     },
     {
      "w": "reto",
-     "start": 42.782,
-     "end": 43.044
+     "start": 45.88,
+     "end": 46.14
     },
     {
      "w": "es",
-     "start": 43.066,
-     "end": 43.241
+     "start": 46.14,
+     "end": 46.26
     },
     {
      "w": "pasar",
-     "start": 43.256,
-     "end": 43.561
+     "start": 46.26,
+     "end": 46.62
     },
     {
      "w": "de",
-     "start": 43.587,
-     "end": 43.762
+     "start": 46.62,
+     "end": 46.74
     },
     {
      "w": "regular",
-     "start": 43.777,
-     "end": 44.169
+     "start": 46.74,
+     "end": 47.24
     },
     {
      "w": "vertical",
-     "start": 44.203,
-     "end": 44.639
+     "start": 47.24,
+     "end": 47.84
     },
     {
      "w": "por",
-     "start": 44.677,
-     "end": 44.895
+     "start": 47.84,
+     "end": 48.02
     },
     {
      "w": "vertical",
-     "start": 44.914,
-     "end": 45.35
+     "start": 48.02,
+     "end": 48.6
     },
     {
      "w": "a",
-     "start": 45.388,
-     "end": 45.518
+     "start": 48.78,
+     "end": 48.88
     },
     {
      "w": "diseñar",
-     "start": 45.53,
-     "end": 45.922
+     "start": 48.88,
+     "end": 49.34
     },
     {
      "w": "una",
-     "start": 45.956,
-     "end": 46.174
+     "start": 49.34,
+     "end": 49.46
     },
     {
      "w": "arquitectura",
-     "start": 46.193,
-     "end": 46.803
+     "start": 49.46,
+     "end": 50.22
     },
     {
      "w": "transversal:",
-     "start": 46.856,
-     "end": 47.466
+     "start": 50.22,
+     "end": 50.92
     },
     {
      "w": "estándares,",
-     "start": 47.519,
-     "end": 48.086
+     "start": 51.23,
+     "end": 52.08
     },
     {
      "w": "consentimiento",
-     "start": 48.135,
-     "end": 48.833
+     "start": 52.08,
+     "end": 53.1
     },
     {
      "w": "y",
-     "start": 48.893,
-     "end": 49.024
+     "start": 53.1,
+     "end": 53.22
     },
     {
      "w": "gobernanza",
-     "start": 49.035,
-     "end": 49.558
+     "start": 53.22,
+     "end": 53.94
     },
     {
      "w": "de",
-     "start": 49.604,
-     "end": 49.778
+     "start": 53.94,
+     "end": 54.04
     },
     {
      "w": "datos.",
-     "start": 49.793,
-     "end": 50.142
+     "start": 54.04,
+     "end": 54.2
     }
    ]
   },
   {
    "text": "¿Qué pieza nos falta para que esto funcione como sistema?",
-   "start": 50.522,
-   "end": 54.182,
+   "start": 54.74,
+   "end": 57.63,
    "words": [
     {
      "w": "¿Qué",
-     "start": 50.522,
-     "end": 50.823
+     "start": 54.74,
+     "end": 54.92
     },
     {
      "w": "pieza",
-     "start": 50.849,
-     "end": 51.2
+     "start": 54.92,
+     "end": 55.22
     },
     {
      "w": "nos",
-     "start": 51.23,
-     "end": 51.481
+     "start": 55.22,
+     "end": 55.46
     },
     {
      "w": "falta",
-     "start": 51.503,
-     "end": 51.853
+     "start": 55.46,
+     "end": 55.8
     },
     {
      "w": "para",
-     "start": 51.884,
-     "end": 52.185
+     "start": 55.8,
+     "end": 56.02
     },
     {
      "w": "que",
-     "start": 52.211,
-     "end": 52.461
+     "start": 56.02,
+     "end": 56.16
     },
     {
      "w": "esto",
-     "start": 52.483,
-     "end": 52.784
+     "start": 56.16,
+     "end": 56.42
     },
     {
      "w": "funcione",
-     "start": 52.81,
-     "end": 53.311
+     "start": 56.42,
+     "end": 56.92
     },
     {
      "w": "como",
-     "start": 53.354,
-     "end": 53.655
+     "start": 56.92,
+     "end": 57.18
     },
     {
      "w": "sistema?",
-     "start": 53.681,
-     "end": 54.182
+     "start": 57.18,
+     "end": 57.63
     }
    ]
   },
   {
    "text": "Colombia ya tiene las piezas; falta la arquitectura que las vuelva sistema.",
-   "start": 54.976,
-   "end": 59.38,
+   "start": 57.94,
+   "end": 62.5,
    "words": [
     {
      "w": "Colombia",
-     "start": 54.976,
-     "end": 55.441
+     "start": 57.94,
+     "end": 58.56
     },
     {
      "w": "ya",
-     "start": 55.481,
-     "end": 55.667
+     "start": 58.56,
+     "end": 58.78
     },
     {
      "w": "tiene",
-     "start": 55.683,
-     "end": 56.008
+     "start": 58.78,
+     "end": 59.1
     },
     {
      "w": "las",
-     "start": 56.037,
-     "end": 56.269
+     "start": 59.1,
+     "end": 59.28
     },
     {
      "w": "piezas;",
-     "start": 56.289,
-     "end": 56.707
+     "start": 59.28,
+     "end": 59.74
     },
     {
      "w": "falta",
-     "start": 56.744,
-     "end": 57.069
+     "start": 60.04,
+     "end": 60.4
     },
     {
      "w": "la",
-     "start": 57.097,
-     "end": 57.283
+     "start": 60.4,
+     "end": 60.59
     },
     {
      "w": "arquitectura",
-     "start": 57.299,
-     "end": 57.95
+     "start": 60.59,
+     "end": 61.24
     },
     {
      "w": "que",
-     "start": 58.006,
-     "end": 58.239
+     "start": 61.24,
+     "end": 61.42
     },
     {
      "w": "las",
-     "start": 58.259,
-     "end": 58.491
+     "start": 61.42,
+     "end": 61.62
     },
     {
      "w": "vuelva",
-     "start": 58.511,
-     "end": 58.883
+     "start": 61.62,
+     "end": 62.02
     },
     {
      "w": "sistema.",
-     "start": 58.915,
-     "end": 59.38
+     "start": 62.02,
+     "end": 62.5
     }
    ]
   },
   {
    "text": "Futuros Vivos, por InnLab.",
-   "start": 59.77,
-   "end": 61.217,
+   "start": 62.9,
+   "end": 64.98,
    "words": [
     {
      "w": "Futuros",
-     "start": 59.77,
-     "end": 60.166
+     "start": 62.9,
+     "end": 63.48
     },
     {
      "w": "Vivos,",
-     "start": 60.2,
-     "end": 60.552
+     "start": 63.48,
+     "end": 63.9
     },
     {
      "w": "por",
-     "start": 60.583,
-     "end": 60.803
+     "start": 64.16,
+     "end": 64.43
     },
     {
      "w": "InnLab.",
-     "start": 60.822,
-     "end": 61.217
+     "start": 64.43,
+     "end": 64.98
     }
    ]
   }
