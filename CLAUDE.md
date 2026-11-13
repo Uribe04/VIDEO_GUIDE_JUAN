@@ -2,6 +2,12 @@
 
 Plantilla para convertir insights del informe de Foresight en videos cortos animados por código (TypeScript + three.js + Canvas2D, bun + Vite), sincronizados con una voz en off. La usuaria habla español; responde en español, sin jerga, y explica los comandos de terminal paso a paso.
 
+## Ramas: una por video
+- `main` es la BASE de todos los videos: plantilla + el video del A2 · I2 como ejemplo. En `main` solo van mejoras de la plantilla; nunca el trabajo de un video nuevo.
+- Cada video va en su rama, creada desde `main`: `aX-iY-tema-corto` para un insight (ej. `a2-i3-regula-por-piezas`) y `aX-general-tema-corto` para el video general de un aprendizaje (ej. `a3-general-pix`).
+- Antes de trabajar, confirma en qué rama estás (`git branch --show-current`). Si piden un video nuevo, crea su rama desde `main`; dentro de ella borra las escenas y el guion del ejemplo que no se usen.
+- Arreglos de la plantilla hechos en una rama se llevan a `main` (y de `main` a las demás ramas con `git merge main`).
+
 ## Flujo de un video
 1. **Guion** → `guion/<video>.md` (tabla) y `guion/voz.txt`: una frase por línea, exactamente como la dice la voz; `## nombre` separa escenas.
 2. **Sin voz aún** → `python3 analysis/placeholder_vo.py` (tiempos provisionales + audio en silencio).

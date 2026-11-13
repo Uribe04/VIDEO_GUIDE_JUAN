@@ -6,7 +6,7 @@ Plantilla para convertir un **insight del informe de Foresight** en un **video c
 
 Cada cuadro del video se dibuja con código, y todo lo que se anima está **sincronizado con la voz**: los textos, los íconos y los personajes aparecen en la palabra exacta en que se dicen. Lo que ves en el navegador es exactamente lo que sale en el MP4.
 
-El repo trae un **video demo** de unos 50 s, que explica el propio proceso. Úsalo como ejemplo y como punto de partida.
+La rama `main` es la **base** de todos los videos: trae la plantilla y, como ejemplo, el video del Aprendizaje 2 · Insight 2 (ACH). Cada video se hace en **su propia rama** (ver "Una rama por video").
 
 ---
 
@@ -106,12 +106,35 @@ CLAUDE.md              ← instrucciones para Claude cuando trabaja en este repo
 
 ## Un video nuevo, en resumen
 
+0. Crea su rama desde `main` (ver "Una rama por video").
+
 1. Copia `guion/plantilla-guion.md`, escribe tu guion y pon el texto hablado en `guion/voz.txt`.
 2. Sin voz todavía: corre `python3 analysis/placeholder_vo.py` para tener tiempos provisionales.
 3. Con la voz: `uv run --no-project --with onnxruntime --with numpy python analysis/preparar_voz.py ~/Downloads/tu_voz.mp3` (ver [docs/02-voz.md](docs/02-voz.md)).
 4. En `app/src/video.config.ts` cambia los números de la **carátula** (aprendizaje e insight) y define las escenas, el footer y los logos.
 5. Busca las marcas `👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO`: son todo lo que cambia de un video a otro.
 6. Abre Claude en esta carpeta y pídele las escenas. Él lee `CLAUDE.md` y sigue el proceso.
+
+## Una rama por video
+
+`main` es la base: ahí solo van mejoras de la plantilla (kit, carátulas, docs, scripts). Cada video vive en su propia rama, creada desde `main`:
+
+| Video | Nombre de la rama | Ejemplo |
+|---|---|---|
+| Insight | `aX-iY-tema-corto` | `a2-i3-regula-por-piezas` |
+| General de un aprendizaje | `aX-general-tema-corto` | `a3-general-pix` |
+
+Para empezar un video nuevo, en la terminal, desde la carpeta del repo:
+
+```sh
+git checkout main
+git pull
+git checkout -b a2-i3-regula-por-piezas
+```
+
+Para pasar a un video que ya existe: `git checkout a2-i2-consentimiento` (y `git pull` para traer lo último).
+
+Dentro de la rama de un video se reemplazan el guion, `voz.txt`, la voz, `video.config.ts` y las escenas. Si arreglas algo de la plantilla (por ejemplo, el kit), hazlo en `main` y llévalo a las ramas con `git merge main`.
 
 ## Créditos y licencias
 
