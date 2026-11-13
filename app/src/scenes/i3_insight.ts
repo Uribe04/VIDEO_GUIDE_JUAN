@@ -1,29 +1,28 @@
 // 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO
 // ESCENA 2 — El insight (fondo azul)
-// Voz: "El consentimiento es el nuevo núcleo político de Open Finance."
-// El título entra palabra por palabra sobre tres tiras de papel rasgado con cinta; "núcleo" se marca con
-// resaltador amarillo (debajo del texto, para que se siga leyendo azul). Andrés señala el título.
+// Voz: "Así está Colombia: ya avanzó, pero regula por piezas, no por arquitectura."
+// La frase entra palabra por palabra sobre tres tiras de papel rasgado con cinta; "piezas" se marca con
+// resaltador amarillo (debajo del texto, para que se siga leyendo azul). Valentina señala el título.
 import type { Frame, PostOverrides } from '../engine/scene';
 import { C, Plate, Puppet, type PupKey, at, clamp, decor, doodle, ease, float, kinetic, measureText, pop, pt, spoken, strokeTrim, tape, tornPaper, type KWordT } from './_kit';
 
-const CX = 1100, SIZE = 92;
+const CX = 1120, SIZE = 88;
 
-export default class I2Insight extends Plate {
-  char = new Puppet('andres');
+export default class I3Insight extends Plate {
+  char = new Puppet('valentina');
   keys: PupKey[] = [];
   w1: KWordT[] = []; w2: KWordT[] = []; w3: KWordT[] = [];
-  tNucleo = 0; tEnd = 0;
+  tPiezas = 0; tEnd = 0;
   override async load() { await this.char.load(); }
 
   override setup() {
-    const S = this.S, L = 'El consentimiento es el nuevo núcleo';
+    const S = this.S, L = 'Así está Colombia';
     this.prevBg = C.blanco;
-    const all = spoken(S, L); // El · consentimiento · es · el · nuevo · núcleo · político · de · Open · Finance.
-    this.w1 = all.slice(0, 3);
-    this.w2 = all.slice(3, 7);
-    this.w3 = all.slice(7);
-    this.tNucleo = S.word(L, 'núcleo').start;
-    this.tEnd = S.word(L, 'Finance.').end;
+    this.w1 = spoken(S, L, 'Así', 'avanzó,');
+    this.w2 = spoken(S, L, 'pero', 'piezas,');
+    this.w3 = spoken(S, L, 'no', 'arquitectura.');
+    this.tPiezas = S.word(L, 'piezas,').start;
+    this.tEnd = S.word(L, 'arquitectura.').end;
     this.keys = [
       { at: -1, pose: 'neutral', head: 'sonrisa' },
       { at: S.line(L).start, pose: 'senala', head: 'habla' },
@@ -34,7 +33,7 @@ export default class I2Insight extends Plate {
   draw(c: CanvasRenderingContext2D, t: number, _f: Frame): PostOverrides {
     const t0 = this.ctx.start;
     c.fillStyle = C.azul; c.fillRect(0, 0, 1920, 1080);
-    decor(c, t, true, 22);
+    decor(c, t, true, 32);
 
     /** Una tira de papel con sus palabras; `under` dibuja algo entre el papel y el texto (el resaltador). */
     const strip = (words: KWordT[], y: number, seed: number, under?: (left: number, fy: number) => void) => {
@@ -47,24 +46,25 @@ export default class I2Insight extends Plate {
       under?.(CX - tw / 2, fy);
       kinetic(c, t, words, CX, y + fy, { w: 800, size: SIZE, col: C.azul, align: 'center' });
     };
-    strip(this.w1, 350, 31);
-    strip(this.w2, 510, 32, (left, fy) => {
-      const hk = ease.inOutCubic(clamp((t - this.tNucleo - 0.3) / 0.45));
+    strip(this.w1, 350, 35);
+    strip(this.w2, 510, 36, (left, fy) => {
+      const hk = ease.inOutCubic(clamp((t - this.tPiezas - 0.3) / 0.45));
       if (hk <= 0) return;
       const sp = measureText(c, ' ', 800, SIZE);
-      const px = left + measureText(c, 'el', 800, SIZE) + sp + measureText(c, 'nuevo', 800, SIZE) + sp, pw = measureText(c, 'núcleo', 800, SIZE);
+      const px = left + ['pero', 'regula', 'por'].reduce((a, w) => a + measureText(c, w, 800, SIZE) + sp, 0);
+      const pw = measureText(c, 'piezas,', 800, SIZE);
       const yy = 510 - SIZE * 0.34 + fy;
       c.save(); c.strokeStyle = C.amarillo; c.lineWidth = 52;
-      strokeTrim(c, [pt(px - 8, yy + 2), pt(px + pw + 8, yy - 2)], hk); c.restore();
+      strokeTrim(c, [pt(px - 8, yy + 2), pt(px + pw + 4, yy - 2)], hk); c.restore();
     });
-    strip(this.w3, 670, 33);
+    strip(this.w3, 670, 37);
 
-    // Andrés señala el título
-    at(c, 330, 960, { s: pop(t, t0 + 0.2, 0.5) }, () => this.char.draw(c, 0, 0, 400, t, this.keys, { seed: 2 }));
+    // Valentina señala el título
+    at(c, 320, 960, { s: pop(t, t0 + 0.2, 0.5) }, () => this.char.draw(c, 0, 0, 420, t, this.keys, { seed: 4 }));
 
-    doodle(c, 'star', 1740, 230, 38, C.amarillo, ease.inOutCubic(clamp((t - this.tEnd) / 0.5)));
-    doodle(c, 'spark', 520, 220, 24, C.blanco, ease.inOutCubic(clamp((t - this.w1[0]!.at) / 0.4)));
-    doodle(c, 'heart', 1600, 860, 30, C.naranja, ease.inOutCubic(clamp((t - this.tEnd - 0.3) / 0.5)));
+    doodle(c, 'star', 1760, 230, 38, C.amarillo, ease.inOutCubic(clamp((t - this.tEnd) / 0.5)));
+    doodle(c, 'spark', 560, 220, 24, C.blanco, ease.inOutCubic(clamp((t - this.w1[0]!.at) / 0.4)));
+    doodle(c, 'heart', 1620, 860, 30, C.naranja, ease.inOutCubic(clamp((t - this.tEnd - 0.3) / 0.5)));
     return {};
   }
 }

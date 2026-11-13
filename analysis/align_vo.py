@@ -45,6 +45,15 @@ SPOKEN = {
     "MP4": ["EME", "PE", "CUATRO"],
     "ElevenLabs": ["ELEVEN", "LABS"],
     "%": ["POR", "CIENTO"],
+    # Insight 3 (ACH)
+    "2021": ["DOS", "MIL", "VEINTIUNO"],
+    "2024": ["DOS", "MIL", "VEINTICUATRO"],
+    "sandbox": ["SANBOKS"],
+    "fintech": ["FINTEK"],
+    "35,6": ["TREINTA", "Y", "CINCO", "COMA", "SEIS"],
+    "28,8": ["VEINTIOCHO", "COMA", "OCHO"],
+    "ACH,": ["A", "CE", "ACHE"],
+    "ACH": ["A", "CE", "ACHE"],
     # Insight 2 (ACH)
     "0,31": ["CERO", "COMA", "TREINTA", "Y", "UNO"],
     "5": ["CINCO"],

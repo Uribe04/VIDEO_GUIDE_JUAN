@@ -82,7 +82,7 @@ bun run render:hq     # más suave (desenfoque de movimiento): out/video-hq.mp4
 ```
 guion/
   voz.txt              ← el texto hablado, frase por frase (fuente de verdad)
-  a2_i2_consentimiento.md ← el guion de este video (tabla + texto para ElevenLabs)
+  a2_i3_regula-por-piezas.md ← el guion de este video (tabla + texto para ElevenLabs)
   plantilla-guion.md   ← plantilla en blanco para un video nuevo
 audio/
   voiceover_original.mp3 ← 👉 la voz de ElevenLabs (se reemplaza en cada video)
@@ -96,7 +96,7 @@ analysis/
 app/
   src/video.config.ts  ← 👉 CONFIGURACIÓN: carátula (números), escenas, footer, logos, estilo
   src/scenes/_kit.ts   ← kit de escenas: colores, tipografía, íconos, personajes, efectos
-  src/scenes/i2_*.ts   ← 👉 las escenas del video actual: Aprendizaje 2 · Insight 2, ACH (se reemplazan)
+  src/scenes/i3_*.ts   ← 👉 las escenas del video de esta rama: Aprendizaje 2 · Insight 3, ACH (se reemplazan)
   src/scenes/caratula_*.ts ← carátulas de inicio y cierre (automáticas)
   public/personas/     ← puppets: valentina, andres, camila
   public/              ← fuentes, logos, personaje ilustrado anterior

@@ -10,16 +10,16 @@
  */
 export const CARATULA = {
   aprendizaje: '2',
-  insight: '2',
+  insight: '3',
   /** Título del video (debajo de los números). */
-  titulo: 'El consentimiento es el nuevo núcleo político de Open Finance',
+  titulo: 'Colombia ya avanzó, pero regula por piezas, no por arquitectura',
   /** Línea pequeña de arriba: cliente y trimestre, o el proyecto. */
   cliente: 'ACH · Q2 2026',
 };
 
 // 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → cliente, trimestre, tendencia/aprendizaje e insight.
 /** Footer de identificación (pastilla abajo a la izquierda en todas las escenas). [] para ocultarlo. */
-export const FOOTER: string[] = ['Foresight', 'ACH', 'Tendencia 2', 'Insight 2'];
+export const FOOTER: string[] = ['Foresight', 'ACH', 'Tendencia 2', 'Insight 3'];
 
 /** Estilo: 'scrapbook' (papel, cinta, marcador) o 'limpio' (flat, colores exactos de la marca). */
 export const STYLE: 'scrapbook' | 'limpio' = 'scrapbook';
@@ -33,17 +33,17 @@ export const LOGOS: { file: string; height: number }[] = [
   { file: 'logos/icesi_logo.svg', height: 115 },
 ];
 
-// 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → tus escenas y la primera frase de cada una (las i2_* son las del video de Aprendizaje 2 · Insight 2).
+// 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO → tus escenas y la primera frase de cada una (las i3_* son las del video de Aprendizaje 2 · Insight 3).
 /**
  * Escenas en orden. `file` = archivo en src/scenes/ (sin .ts).
  * `from` = un pedazo de la primera frase de la escena tal como está en guion/voz.txt:
  * el corte se hace justo antes de que la voz la diga (la primera escena no lo necesita).
  */
 export const SCENES: { file: string; from?: string }[] = [
-  { file: 'i2_gancho' },
-  { file: 'i2_insight', from: 'El consentimiento es el nuevo núcleo' },
-  { file: 'i2_brecha', from: 'La infraestructura ya está lista' },
-  { file: 'i2_consentimiento', from: 'Por eso el consentimiento dejó' },
-  { file: 'i2_colombia', from: 'Para Colombia, el consentimiento' },
-  { file: 'i2_cierre', from: 'Sin consentimiento claro' },
+  { file: 'i3_gancho' },
+  { file: 'i3_insight', from: 'Así está Colombia' },
+  { file: 'i3_avances', from: 'Entre 2021 y 2024' },
+  { file: 'i3_concentracion', from: 'Pero ese crecimiento se concentra' },
+  { file: 'i3_colombia', from: 'La regulación acompaña' },
+  { file: 'i3_cierre', from: 'Colombia ya tiene las piezas' },
 ];

@@ -1,5 +1,5 @@
 # 👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO
-# Texto hablado del video: Aprendizaje 2 · Insight 2 (ACH).
+# Texto hablado del video: Aprendizaje 2 · Insight 3 (ACH).
 #
 # Este archivo es la fuente de verdad del texto hablado.
 # - Una frase por línea, escrita EXACTAMENTE como la dice la voz.
@@ -7,27 +7,26 @@
 # - Las líneas que empiezan con "#" y las vacías se ignoran; las etiquetas <break .../> también.
 
 ## gancho
-Aceptar términos y condiciones.
-¿Cuántas veces lo hiciste sin leer nada?
+Imagina una casa construida cuarto por cuarto, sin plano.
+Cada parte funciona, pero la casa no.
 
 ## insight
-El consentimiento es el nuevo núcleo político de Open Finance.
+Así está Colombia: ya avanzó, pero regula por piezas, no por arquitectura.
 
-## brecha
-La infraestructura ya está lista, pero la confianza no.
-En Australia, solo el 0,31 % de los clientes usa el CDR.
-En la Unión Europea, menos del 5 % de los consumidores usa Open Banking.
+## avances
+Entre 2021 y 2024 llegaron el sandbox, Open Banking y Open Finance.
+Y el ecosistema fintech creció con fuerza.
 
-## consentimiento
-Por eso el consentimiento dejó de ser un checkbox.
-Ahora hay que decidir qué se comparte, con quién, por cuánto tiempo y para qué propósito.
-Y cómo se revoca.
+## concentracion
+Pero ese crecimiento se concentra.
+Crédito virtual, con el 35,6 %, y pagos digitales, con el 28,8 %, suman casi dos tercios del ecosistema.
 
 ## colombia
-Para Colombia, el consentimiento debe tratarse como un producto, no solo como un requisito legal.
-Sin trazabilidad y sin beneficio percibido, ni la infraestructura ni la norma bastan.
-¿Nuestro consentimiento se entiende, o solo se acepta?
+La regulación acompaña el crecimiento, pero no lo ordena.
+Los innovadores operan con incertidumbre, y los usuarios quedan en zonas grises.
+Para ACH, el reto es pasar de regular vertical por vertical a diseñar una arquitectura transversal: estándares, consentimiento y gobernanza de datos.
+¿Qué pieza nos falta para que esto funcione como sistema?
 
 ## cierre
-Sin consentimiento claro, Open Finance parece extracción de datos, no empoderamiento financiero.
+Colombia ya tiene las piezas; falta la arquitectura que las vuelva sistema.
 Futuros Vivos, por InnLab.

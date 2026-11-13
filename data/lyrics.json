@@ -1,842 +1,794 @@
 {
- "source": "align_vo.py (wav2vec2-base-960h CTC)",
+ "source": "placeholder_vo.py (provisional, no voiceover yet)",
  "lines": [
   {
-   "text": "Aceptar términos y condiciones.",
-   "start": 3.24,
-   "end": 5.2,
+   "text": "Imagina una casa construida cuarto por cuarto, sin plano.",
+   "start": 3.2,
+   "end": 6.501,
    "words": [
     {
-     "w": "Aceptar",
-     "start": 3.24,
-     "end": 3.86
+     "w": "Imagina",
+     "start": 3.2,
+     "end": 3.612
     },
     {
-     "w": "términos",
-     "start": 3.86,
-     "end": 4.36
+     "w": "una",
+     "start": 3.648,
+     "end": 3.877
     },
     {
-     "w": "y",
-     "start": 4.36,
-     "end": 4.39
+     "w": "casa",
+     "start": 3.897,
+     "end": 4.171
     },
     {
-     "w": "condiciones.",
-     "start": 4.39,
-     "end": 5.2
-    }
-   ]
-  },
-  {
-   "text": "¿Cuántas veces lo hiciste sin leer nada?",
-   "start": 5.52,
-   "end": 7.65,
-   "words": [
-    {
-     "w": "¿Cuántas",
-     "start": 5.52,
-     "end": 5.88
-    },
-    {
-     "w": "veces",
-     "start": 5.88,
-     "end": 6.06
-    },
-    {
-     "w": "lo",
-     "start": 6.06,
-     "end": 6.22
-    },
-    {
-     "w": "hiciste",
-     "start": 6.22,
-     "end": 6.63
-    },
-    {
-     "w": "sin",
-     "start": 6.63,
-     "end": 6.92
-    },
-    {
-     "w": "leer",
-     "start": 6.92,
-     "end": 7.3
-    },
-    {
-     "w": "nada?",
-     "start": 7.3,
-     "end": 7.65
-    }
-   ]
-  },
-  {
-   "text": "El consentimiento es el nuevo núcleo político de Open Finance.",
-   "start": 8.03,
-   "end": 11.74,
-   "words": [
-    {
-     "w": "El",
-     "start": 8.03,
-     "end": 8.16
-    },
-    {
-     "w": "consentimiento",
-     "start": 8.16,
-     "end": 9.09
-    },
-    {
-     "w": "es",
-     "start": 9.09,
-     "end": 9.28
-    },
-    {
-     "w": "el",
-     "start": 9.28,
-     "end": 9.44
-    },
-    {
-     "w": "nuevo",
-     "start": 9.44,
-     "end": 9.86
-    },
-    {
-     "w": "núcleo",
-     "start": 9.86,
-     "end": 10.18
-    },
-    {
-     "w": "político",
-     "start": 10.18,
-     "end": 10.78
-    },
-    {
-     "w": "de",
-     "start": 10.78,
-     "end": 10.97
-    },
-    {
-     "w": "Open",
-     "start": 10.97,
-     "end": 11.38
-    },
-    {
-     "w": "Finance.",
-     "start": 11.38,
-     "end": 11.74
-    }
-   ]
-  },
-  {
-   "text": "La infraestructura ya está lista, pero la confianza no.",
-   "start": 12.12,
-   "end": 15.48,
-   "words": [
-    {
-     "w": "La",
-     "start": 12.12,
-     "end": 12.2
-    },
-    {
-     "w": "infraestructura",
-     "start": 12.2,
-     "end": 13.1
-    },
-    {
-     "w": "ya",
-     "start": 13.1,
-     "end": 13.32
-    },
-    {
-     "w": "está",
-     "start": 13.32,
-     "end": 13.54
-    },
-    {
-     "w": "lista,",
-     "start": 13.54,
-     "end": 13.74
-    },
-    {
-     "w": "pero",
-     "start": 14.08,
-     "end": 14.32
-    },
-    {
-     "w": "la",
-     "start": 14.32,
-     "end": 14.43
-    },
-    {
-     "w": "confianza",
-     "start": 14.43,
-     "end": 15.19
-    },
-    {
-     "w": "no.",
-     "start": 15.19,
-     "end": 15.48
-    }
-   ]
-  },
-  {
-   "text": "En Australia, solo el 0,31 % de los clientes usa el CDR.",
-   "start": 15.81,
-   "end": 20.66,
-   "words": [
-    {
-     "w": "En",
-     "start": 15.81,
-     "end": 15.96
-    },
-    {
-     "w": "Australia,",
-     "start": 15.96,
-     "end": 16.62
-    },
-    {
-     "w": "solo",
-     "start": 16.62,
-     "end": 16.86
-    },
-    {
-     "w": "el",
-     "start": 16.86,
-     "end": 17.06
-    },
-    {
-     "w": "0,31",
-     "start": 17.06,
-     "end": 18.22,
-     "syl": [
-      [
-       17.06,
-       17.38
-      ],
-      [
-       17.38,
-       17.62
-      ],
-      [
-       17.62,
-       17.94
-      ],
-      [
-       17.94,
-       18.04
-      ],
-      [
-       18.04,
-       18.22
-      ]
-     ]
-    },
-    {
-     "w": "%",
-     "start": 18.22,
-     "end": 18.76,
-     "syl": [
-      [
-       18.22,
-       18.42
-      ],
-      [
-       18.42,
-       18.76
-      ]
-     ]
-    },
-    {
-     "w": "de",
-     "start": 18.76,
-     "end": 18.86
-    },
-    {
-     "w": "los",
-     "start": 18.86,
-     "end": 19.02
-    },
-    {
-     "w": "clientes",
-     "start": 19.02,
-     "end": 19.62
-    },
-    {
-     "w": "usa",
-     "start": 19.62,
-     "end": 19.98
-    },
-    {
-     "w": "el",
-     "start": 19.98,
-     "end": 20.12
-    },
-    {
-     "w": "CDR.",
-     "start": 20.12,
-     "end": 20.66,
-     "syl": [
-      [
-       20.12,
-       20.32
-      ],
-      [
-       20.32,
-       20.48
-      ],
-      [
-       20.48,
-       20.66
-      ]
-     ]
-    }
-   ]
-  },
-  {
-   "text": "En la Unión Europea, menos del 5 % de los consumidores usa Open Banking.",
-   "start": 21.02,
-   "end": 25.99,
-   "words": [
-    {
-     "w": "En",
-     "start": 21.02,
-     "end": 21.14
-    },
-    {
-     "w": "la",
-     "start": 21.14,
-     "end": 21.24
-    },
-    {
-     "w": "Unión",
-     "start": 21.24,
-     "end": 21.48
-    },
-    {
-     "w": "Europea,",
-     "start": 21.48,
-     "end": 22.16
-    },
-    {
-     "w": "menos",
-     "start": 22.16,
-     "end": 22.48
-    },
-    {
-     "w": "del",
-     "start": 22.48,
-     "end": 22.76
-    },
-    {
-     "w": "5",
-     "start": 22.76,
-     "end": 23.14
-    },
-    {
-     "w": "%",
-     "start": 23.14,
-     "end": 23.68,
-     "syl": [
-      [
-       23.14,
-       23.32
-      ],
-      [
-       23.32,
-       23.68
-      ]
-     ]
-    },
-    {
-     "w": "de",
-     "start": 23.68,
-     "end": 23.78
-    },
-    {
-     "w": "los",
-     "start": 23.78,
-     "end": 23.9
-    },
-    {
-     "w": "consumidores",
-     "start": 23.9,
-     "end": 24.74
-    },
-    {
-     "w": "usa",
-     "start": 24.74,
-     "end": 25.05
-    },
-    {
-     "w": "Open",
-     "start": 25.16,
-     "end": 25.56
-    },
-    {
-     "w": "Banking.",
-     "start": 25.56,
-     "end": 25.99
-    }
-   ]
-  },
-  {
-   "text": "Por eso el consentimiento dejó de ser un checkbox.",
-   "start": 26.26,
-   "end": 28.84,
-   "words": [
-    {
-     "w": "Por",
-     "start": 26.26,
-     "end": 26.44
-    },
-    {
-     "w": "eso",
-     "start": 26.44,
-     "end": 26.62
-    },
-    {
-     "w": "el",
-     "start": 26.62,
-     "end": 26.72
-    },
-    {
-     "w": "consentimiento",
-     "start": 26.72,
-     "end": 27.58
-    },
-    {
-     "w": "dejó",
-     "start": 27.58,
-     "end": 27.96
-    },
-    {
-     "w": "de",
-     "start": 27.96,
-     "end": 28.06
-    },
-    {
-     "w": "ser",
-     "start": 28.06,
-     "end": 28.24
-    },
-    {
-     "w": "un",
-     "start": 28.24,
-     "end": 28.33
-    },
-    {
-     "w": "checkbox.",
-     "start": 28.33,
-     "end": 28.84
-    }
-   ]
-  },
-  {
-   "text": "Ahora hay que decidir qué se comparte, con quién, por cuánto tiempo y para qué propósito.",
-   "start": 29.07,
-   "end": 34.64,
-   "words": [
-    {
-     "w": "Ahora",
-     "start": 29.07,
-     "end": 29.58
-    },
-    {
-     "w": "hay",
-     "start": 29.58,
-     "end": 29.74
-    },
-    {
-     "w": "que",
-     "start": 29.74,
-     "end": 29.9
-    },
-    {
-     "w": "decidir",
-     "start": 29.9,
-     "end": 30.36
-    },
-    {
-     "w": "qué",
-     "start": 30.48,
-     "end": 30.64
-    },
-    {
-     "w": "se",
-     "start": 30.64,
-     "end": 30.8
-    },
-    {
-     "w": "comparte,",
-     "start": 30.8,
-     "end": 31.2
-    },
-    {
-     "w": "con",
-     "start": 31.58,
-     "end": 31.82
+     "w": "construida",
+     "start": 4.195,
+     "end": 4.744
     },
     {
-     "w": "quién,",
-     "start": 31.82,
-     "end": 32.14
+     "w": "cuarto",
+     "start": 4.792,
+     "end": 5.158
     },
     {
      "w": "por",
-     "start": 32.42,
-     "end": 32.56
+     "start": 5.19,
+     "end": 5.419
     },
     {
-     "w": "cuánto",
-     "start": 32.66,
-     "end": 33.06
-    },
-    {
-     "w": "tiempo",
-     "start": 33.06,
-     "end": 33.54
-    },
-    {
-     "w": "y",
-     "start": 33.54,
-     "end": 33.7
-    },
-    {
-     "w": "para",
-     "start": 33.7,
-     "end": 33.9
-    },
-    {
-     "w": "qué",
-     "start": 34.01,
-     "end": 34.14
-    },
-    {
-     "w": "propósito.",
-     "start": 34.14,
-     "end": 34.64
-    }
-   ]
-  },
-  {
-   "text": "Y cómo se revoca.",
-   "start": 35.07,
-   "end": 36.04,
-   "words": [
-    {
-     "w": "Y",
-     "start": 35.07,
-     "end": 35.16
-    },
-    {
-     "w": "cómo",
-     "start": 35.3,
-     "end": 35.64
-    },
-    {
-     "w": "se",
-     "start": 35.64,
-     "end": 35.78
-    },
-    {
-     "w": "revoca.",
-     "start": 35.78,
-     "end": 36.04
-    }
-   ]
-  },
-  {
-   "text": "Para Colombia, el consentimiento debe tratarse como un producto, no solo como un requisito legal.",
-   "start": 36.5,
-   "end": 42.02,
-   "words": [
-    {
-     "w": "Para",
-     "start": 36.5,
-     "end": 36.74
-    },
-    {
-     "w": "Colombia,",
-     "start": 36.74,
-     "end": 37.33
-    },
-    {
-     "w": "el",
-     "start": 37.33,
-     "end": 37.46
-    },
-    {
-     "w": "consentimiento",
-     "start": 37.46,
-     "end": 38.3
-    },
-    {
-     "w": "debe",
-     "start": 38.3,
-     "end": 38.52
-    },
-    {
-     "w": "tratarse",
-     "start": 38.52,
-     "end": 39.08
-    },
-    {
-     "w": "como",
-     "start": 39.08,
-     "end": 39.32
-    },
-    {
-     "w": "un",
-     "start": 39.32,
-     "end": 39.49
-    },
-    {
-     "w": "producto,",
-     "start": 39.49,
-     "end": 39.77
-    },
-    {
-     "w": "no",
-     "start": 40.17,
-     "end": 40.48
-    },
-    {
-     "w": "solo",
-     "start": 40.48,
-     "end": 40.8
-    },
-    {
-     "w": "como",
-     "start": 40.8,
-     "end": 41.04
-    },
-    {
-     "w": "un",
-     "start": 41.04,
-     "end": 41.18
-    },
-    {
-     "w": "requisito",
-     "start": 41.18,
-     "end": 41.68
-    },
-    {
-     "w": "legal.",
-     "start": 41.68,
-     "end": 42.02
-    }
-   ]
-  },
-  {
-   "text": "Sin trazabilidad y sin beneficio percibido, ni la infraestructura ni la norma bastan.",
-   "start": 42.25,
-   "end": 47.04,
-   "words": [
-    {
-     "w": "Sin",
-     "start": 42.25,
-     "end": 42.46
-    },
-    {
-     "w": "trazabilidad",
-     "start": 42.46,
-     "end": 43.28
-    },
-    {
-     "w": "y",
-     "start": 43.28,
-     "end": 43.44
+     "w": "cuarto,",
+     "start": 5.439,
+     "end": 5.851
     },
     {
      "w": "sin",
-     "start": 43.44,
-     "end": 43.68
+     "start": 5.887,
+     "end": 6.115
     },
     {
-     "w": "beneficio",
-     "start": 43.68,
-     "end": 44.18
-    },
-    {
-     "w": "percibido,",
-     "start": 44.18,
-     "end": 44.88
-    },
-    {
-     "w": "ni",
-     "start": 44.88,
-     "end": 45.1
-    },
-    {
-     "w": "la",
-     "start": 45.1,
-     "end": 45.18
-    },
-    {
-     "w": "infraestructura",
-     "start": 45.18,
-     "end": 46.08
-    },
-    {
-     "w": "ni",
-     "start": 46.08,
-     "end": 46.24
-    },
-    {
-     "w": "la",
-     "start": 46.24,
-     "end": 46.42
-    },
-    {
-     "w": "norma",
-     "start": 46.42,
-     "end": 46.8
-    },
-    {
-     "w": "bastan.",
-     "start": 46.8,
-     "end": 47.04
+     "w": "plano.",
+     "start": 6.135,
+     "end": 6.501
     }
    ]
   },
   {
-   "text": "¿Nuestro consentimiento se entiende, o solo se acepta?",
-   "start": 47.55,
-   "end": 50.36,
+   "text": "Cada parte funciona, pero la casa no.",
+   "start": 6.883,
+   "end": 9.453,
    "words": [
     {
-     "w": "¿Nuestro",
-     "start": 47.55,
-     "end": 47.86
+     "w": "Cada",
+     "start": 6.883,
+     "end": 7.201
     },
     {
-     "w": "consentimiento",
-     "start": 47.86,
-     "end": 48.58
+     "w": "parte",
+     "start": 7.229,
+     "end": 7.6
     },
     {
-     "w": "se",
-     "start": 48.58,
-     "end": 48.68
+     "w": "funciona,",
+     "start": 7.632,
+     "end": 8.215
     },
     {
-     "w": "entiende,",
-     "start": 48.68,
-     "end": 49.3
+     "w": "pero",
+     "start": 8.266,
+     "end": 8.584
     },
     {
-     "w": "o",
-     "start": 49.48,
-     "end": 49.7
+     "w": "la",
+     "start": 8.612,
+     "end": 8.824
     },
     {
-     "w": "solo",
-     "start": 49.7,
-     "end": 50.02
+     "w": "casa",
+     "start": 8.842,
+     "end": 9.16
     },
     {
-     "w": "se",
-     "start": 50.02,
-     "end": 50.1
-    },
-    {
-     "w": "acepta?",
-     "start": 50.1,
-     "end": 50.36
+     "w": "no.",
+     "start": 9.188,
+     "end": 9.453
     }
    ]
   },
   {
-   "text": "Sin consentimiento claro, Open Finance parece extracción de datos, no empoderamiento financiero.",
-   "start": 50.91,
-   "end": 56.58,
+   "text": "Así está Colombia: ya avanzó, pero regula por piezas, no por arquitectura.",
+   "start": 10.226,
+   "end": 14.609,
    "words": [
     {
-     "w": "Sin",
-     "start": 50.91,
-     "end": 51.1
+     "w": "Así",
+     "start": 10.226,
+     "end": 10.461
     },
     {
-     "w": "consentimiento",
-     "start": 51.1,
-     "end": 51.88
+     "w": "está",
+     "start": 10.481,
+     "end": 10.763
     },
     {
-     "w": "claro,",
-     "start": 51.88,
-     "end": 52.27
+     "w": "Colombia:",
+     "start": 10.788,
+     "end": 11.305
     },
     {
-     "w": "Open",
-     "start": 52.4,
-     "end": 52.8
+     "w": "ya",
+     "start": 11.35,
+     "end": 11.538
     },
     {
-     "w": "Finance",
-     "start": 52.8,
-     "end": 53.26
+     "w": "avanzó,",
+     "start": 11.554,
+     "end": 11.977
     },
     {
-     "w": "parece",
-     "start": 53.26,
-     "end": 53.72
+     "w": "pero",
+     "start": 12.014,
+     "end": 12.296
     },
     {
-     "w": "extracción",
-     "start": 53.72,
-     "end": 54.36
+     "w": "regula",
+     "start": 12.32,
+     "end": 12.696
     },
     {
-     "w": "de",
-     "start": 54.36,
-     "end": 54.5
+     "w": "por",
+     "start": 12.729,
+     "end": 12.964
     },
     {
-     "w": "datos,",
-     "start": 54.5,
-     "end": 54.66
+     "w": "piezas,",
+     "start": 12.985,
+     "end": 13.408
     },
     {
      "w": "no",
-     "start": 55.03,
-     "end": 55.32
+     "start": 13.444,
+     "end": 13.632
     },
     {
-     "w": "empoderamiento",
-     "start": 55.32,
-     "end": 56.1
+     "w": "por",
+     "start": 13.649,
+     "end": 13.884
     },
     {
-     "w": "financiero.",
-     "start": 56.1,
-     "end": 56.58
+     "w": "arquitectura.",
+     "start": 13.904,
+     "end": 14.609
+    }
+   ]
+  },
+  {
+   "text": "Entre 2021 y 2024 llegaron el sandbox, Open Banking y Open Finance.",
+   "start": 15.42,
+   "end": 19.82,
+   "words": [
+    {
+     "w": "Entre",
+     "start": 15.42,
+     "end": 15.778
+    },
+    {
+     "w": "2021",
+     "start": 15.809,
+     "end": 16.116
+    },
+    {
+     "w": "y",
+     "start": 16.143,
+     "end": 16.296
+    },
+    {
+     "w": "2024",
+     "start": 16.309,
+     "end": 16.616
+    },
+    {
+     "w": "llegaron",
+     "start": 16.643,
+     "end": 17.154
+    },
+    {
+     "w": "el",
+     "start": 17.198,
+     "end": 17.403
+    },
+    {
+     "w": "sandbox,",
+     "start": 17.42,
+     "end": 17.931
+    },
+    {
+     "w": "Open",
+     "start": 17.976,
+     "end": 18.283
+    },
+    {
+     "w": "Banking",
+     "start": 18.309,
+     "end": 18.769
+    },
+    {
+     "w": "y",
+     "start": 18.809,
+     "end": 18.963
+    },
+    {
+     "w": "Open",
+     "start": 18.976,
+     "end": 19.283
+    },
+    {
+     "w": "Finance.",
+     "start": 19.309,
+     "end": 19.82
+    }
+   ]
+  },
+  {
+   "text": "Y el ecosistema fintech creció con fuerza.",
+   "start": 20.215,
+   "end": 22.77,
+   "words": [
+    {
+     "w": "Y",
+     "start": 20.215,
+     "end": 20.358
+    },
+    {
+     "w": "el",
+     "start": 20.37,
+     "end": 20.561
+    },
+    {
+     "w": "ecosistema",
+     "start": 20.578,
+     "end": 21.15
+    },
+    {
+     "w": "fintech",
+     "start": 21.2,
+     "end": 21.629
+    },
+    {
+     "w": "creció",
+     "start": 21.667,
+     "end": 22.048
+    },
+    {
+     "w": "con",
+     "start": 22.081,
+     "end": 22.32
+    },
+    {
+     "w": "fuerza.",
+     "start": 22.341,
+     "end": 22.77
+    }
+   ]
+  },
+  {
+   "text": "Pero ese crecimiento se concentra.",
+   "start": 23.557,
+   "end": 25.365,
+   "words": [
+    {
+     "w": "Pero",
+     "start": 23.557,
+     "end": 23.813
+    },
+    {
+     "w": "ese",
+     "start": 23.835,
+     "end": 24.048
+    },
+    {
+     "w": "crecimiento",
+     "start": 24.067,
+     "end": 24.62
+    },
+    {
+     "w": "se",
+     "start": 24.669,
+     "end": 24.839
+    },
+    {
+     "w": "concentra.",
+     "start": 24.854,
+     "end": 25.365
+    }
+   ]
+  },
+  {
+   "text": "Crédito virtual, con el 35,6 %, y pagos digitales, con el 28,8 %, suman casi dos tercios del ecosistema.",
+   "start": 25.759,
+   "end": 32.737,
+   "words": [
+    {
+     "w": "Crédito",
+     "start": 25.759,
+     "end": 26.229
+    },
+    {
+     "w": "virtual,",
+     "start": 26.27,
+     "end": 26.792
+    },
+    {
+     "w": "con",
+     "start": 26.838,
+     "end": 27.099
+    },
+    {
+     "w": "el",
+     "start": 27.121,
+     "end": 27.33
+    },
+    {
+     "w": "35,6",
+     "start": 27.348,
+     "end": 27.662
+    },
+    {
+     "w": "%,",
+     "start": 27.689,
+     "end": 27.898
+    },
+    {
+     "w": "y",
+     "start": 27.916,
+     "end": 28.072
+    },
+    {
+     "w": "pagos",
+     "start": 28.086,
+     "end": 28.451
+    },
+    {
+     "w": "digitales,",
+     "start": 28.483,
+     "end": 29.11
+    },
+    {
+     "w": "con",
+     "start": 29.164,
+     "end": 29.425
+    },
+    {
+     "w": "el",
+     "start": 29.448,
+     "end": 29.657
+    },
+    {
+     "w": "28,8",
+     "start": 29.675,
+     "end": 29.988
+    },
+    {
+     "w": "%,",
+     "start": 30.016,
+     "end": 30.224
+    },
+    {
+     "w": "suman",
+     "start": 30.243,
+     "end": 30.608
+    },
+    {
+     "w": "casi",
+     "start": 30.64,
+     "end": 30.953
+    },
+    {
+     "w": "dos",
+     "start": 30.98,
+     "end": 31.241
+    },
+    {
+     "w": "tercios",
+     "start": 31.264,
+     "end": 31.734
+    },
+    {
+     "w": "del",
+     "start": 31.775,
+     "end": 32.036
+    },
+    {
+     "w": "ecosistema.",
+     "start": 32.059,
+     "end": 32.737
+    }
+   ]
+  },
+  {
+   "text": "La regulación acompaña el crecimiento, pero no lo ordena.",
+   "start": 33.546,
+   "end": 36.844,
+   "words": [
+    {
+     "w": "La",
+     "start": 33.546,
+     "end": 33.729
+    },
+    {
+     "w": "regulación",
+     "start": 33.745,
+     "end": 34.295
+    },
+    {
+     "w": "acompaña",
+     "start": 34.342,
+     "end": 34.8
+    },
+    {
+     "w": "el",
+     "start": 34.84,
+     "end": 35.023
+    },
+    {
+     "w": "crecimiento,",
+     "start": 35.039,
+     "end": 35.68
+    },
+    {
+     "w": "pero",
+     "start": 35.735,
+     "end": 36.01
+    },
+    {
+     "w": "no",
+     "start": 36.034,
+     "end": 36.217
+    },
+    {
+     "w": "lo",
+     "start": 36.233,
+     "end": 36.416
+    },
+    {
+     "w": "ordena.",
+     "start": 36.432,
+     "end": 36.844
+    }
+   ]
+  },
+  {
+   "text": "Los innovadores operan con incertidumbre, y los usuarios quedan en zonas grises.",
+   "start": 37.23,
+   "end": 41.64,
+   "words": [
+    {
+     "w": "Los",
+     "start": 37.23,
+     "end": 37.449
+    },
+    {
+     "w": "innovadores",
+     "start": 37.469,
+     "end": 38.04
+    },
+    {
+     "w": "operan",
+     "start": 38.09,
+     "end": 38.442
+    },
+    {
+     "w": "con",
+     "start": 38.472,
+     "end": 38.692
+    },
+    {
+     "w": "incertidumbre,",
+     "start": 38.711,
+     "end": 39.415
+    },
+    {
+     "w": "y",
+     "start": 39.476,
+     "end": 39.608
+    },
+    {
+     "w": "los",
+     "start": 39.619,
+     "end": 39.839
+    },
+    {
+     "w": "usuarios",
+     "start": 39.858,
+     "end": 40.298
+    },
+    {
+     "w": "quedan",
+     "start": 40.336,
+     "end": 40.688
+    },
+    {
+     "w": "en",
+     "start": 40.718,
+     "end": 40.894
+    },
+    {
+     "w": "zonas",
+     "start": 40.909,
+     "end": 41.217
+    },
+    {
+     "w": "grises.",
+     "start": 41.244,
+     "end": 41.64
+    }
+   ]
+  },
+  {
+   "text": "Para ACH, el reto es pasar de regular vertical por vertical a diseñar una arquitectura transversal: estándares, consentimiento y gobernanza de datos.",
+   "start": 42.024,
+   "end": 50.142,
+   "words": [
+    {
+     "w": "Para",
+     "start": 42.024,
+     "end": 42.286
+    },
+    {
+     "w": "ACH,",
+     "start": 42.308,
+     "end": 42.57
+    },
+    {
+     "w": "el",
+     "start": 42.593,
+     "end": 42.767
+    },
+    {
+     "w": "reto",
+     "start": 42.782,
+     "end": 43.044
+    },
+    {
+     "w": "es",
+     "start": 43.066,
+     "end": 43.241
+    },
+    {
+     "w": "pasar",
+     "start": 43.256,
+     "end": 43.561
+    },
+    {
+     "w": "de",
+     "start": 43.587,
+     "end": 43.762
+    },
+    {
+     "w": "regular",
+     "start": 43.777,
+     "end": 44.169
+    },
+    {
+     "w": "vertical",
+     "start": 44.203,
+     "end": 44.639
+    },
+    {
+     "w": "por",
+     "start": 44.677,
+     "end": 44.895
+    },
+    {
+     "w": "vertical",
+     "start": 44.914,
+     "end": 45.35
+    },
+    {
+     "w": "a",
+     "start": 45.388,
+     "end": 45.518
+    },
+    {
+     "w": "diseñar",
+     "start": 45.53,
+     "end": 45.922
+    },
+    {
+     "w": "una",
+     "start": 45.956,
+     "end": 46.174
+    },
+    {
+     "w": "arquitectura",
+     "start": 46.193,
+     "end": 46.803
+    },
+    {
+     "w": "transversal:",
+     "start": 46.856,
+     "end": 47.466
+    },
+    {
+     "w": "estándares,",
+     "start": 47.519,
+     "end": 48.086
+    },
+    {
+     "w": "consentimiento",
+     "start": 48.135,
+     "end": 48.833
+    },
+    {
+     "w": "y",
+     "start": 48.893,
+     "end": 49.024
+    },
+    {
+     "w": "gobernanza",
+     "start": 49.035,
+     "end": 49.558
+    },
+    {
+     "w": "de",
+     "start": 49.604,
+     "end": 49.778
+    },
+    {
+     "w": "datos.",
+     "start": 49.793,
+     "end": 50.142
+    }
+   ]
+  },
+  {
+   "text": "¿Qué pieza nos falta para que esto funcione como sistema?",
+   "start": 50.522,
+   "end": 54.182,
+   "words": [
+    {
+     "w": "¿Qué",
+     "start": 50.522,
+     "end": 50.823
+    },
+    {
+     "w": "pieza",
+     "start": 50.849,
+     "end": 51.2
+    },
+    {
+     "w": "nos",
+     "start": 51.23,
+     "end": 51.481
+    },
+    {
+     "w": "falta",
+     "start": 51.503,
+     "end": 51.853
+    },
+    {
+     "w": "para",
+     "start": 51.884,
+     "end": 52.185
+    },
+    {
+     "w": "que",
+     "start": 52.211,
+     "end": 52.461
+    },
+    {
+     "w": "esto",
+     "start": 52.483,
+     "end": 52.784
+    },
+    {
+     "w": "funcione",
+     "start": 52.81,
+     "end": 53.311
+    },
+    {
+     "w": "como",
+     "start": 53.354,
+     "end": 53.655
+    },
+    {
+     "w": "sistema?",
+     "start": 53.681,
+     "end": 54.182
+    }
+   ]
+  },
+  {
+   "text": "Colombia ya tiene las piezas; falta la arquitectura que las vuelva sistema.",
+   "start": 54.976,
+   "end": 59.38,
+   "words": [
+    {
+     "w": "Colombia",
+     "start": 54.976,
+     "end": 55.441
+    },
+    {
+     "w": "ya",
+     "start": 55.481,
+     "end": 55.667
+    },
+    {
+     "w": "tiene",
+     "start": 55.683,
+     "end": 56.008
+    },
+    {
+     "w": "las",
+     "start": 56.037,
+     "end": 56.269
+    },
+    {
+     "w": "piezas;",
+     "start": 56.289,
+     "end": 56.707
+    },
+    {
+     "w": "falta",
+     "start": 56.744,
+     "end": 57.069
+    },
+    {
+     "w": "la",
+     "start": 57.097,
+     "end": 57.283
+    },
+    {
+     "w": "arquitectura",
+     "start": 57.299,
+     "end": 57.95
+    },
+    {
+     "w": "que",
+     "start": 58.006,
+     "end": 58.239
+    },
+    {
+     "w": "las",
+     "start": 58.259,
+     "end": 58.491
+    },
+    {
+     "w": "vuelva",
+     "start": 58.511,
+     "end": 58.883
+    },
+    {
+     "w": "sistema.",
+     "start": 58.915,
+     "end": 59.38
     }
    ]
   },
   {
    "text": "Futuros Vivos, por InnLab.",
-   "start": 57.1,
-   "end": 59.08,
+   "start": 59.77,
+   "end": 61.217,
    "words": [
     {
      "w": "Futuros",
-     "start": 57.1,
-     "end": 57.66
+     "start": 59.77,
+     "end": 60.166
     },
     {
      "w": "Vivos,",
-     "start": 57.66,
-     "end": 58.12
+     "start": 60.2,
+     "end": 60.552
     },
     {
      "w": "por",
-     "start": 58.38,
-     "end": 58.63
+     "start": 60.583,
+     "end": 60.803
     },
     {
      "w": "InnLab.",
-     "start": 58.63,
-     "end": 59.08
+     "start": 60.822,
+     "end": 61.217
     }
    ]
   }
