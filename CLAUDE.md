@@ -17,7 +17,7 @@ Plantilla para convertir insights del informe de Foresight en videos cortos anim
 6. **Exportar** → `cd app && bun run render` → `out/video.mp4`.
 
 ## Reglas
-- **Carátulas SIEMPRE:** todos los videos abren y cierran con "Aprendizaje X · Insight Z" (`caratula_inicio` / `caratula_final`). `timeline.ts` las agrega sola; no las pongas en `SCENES` ni las quites. Solo se cambian los números en `CARATULA`. Si la voz no tiene el silencio inicial, corre `preparar_voz.py`.
+- **Carátulas SIEMPRE:** todos los videos abren y cierran con "Aprendizaje X · Insight Z" (`caratula_inicio` / `caratula_final`). `timeline.ts` las agrega sola; no las pongas en `SCENES` ni las quites. Solo se cambian los números en `CARATULA` (para el video general de un aprendizaje: `insight: 'General'`). Si la voz no tiene el silencio inicial, corre `preparar_voz.py`.
 - **Personas = puppets:** cuando una escena necesite una persona, usa SIEMPRE `Puppet` (`valentina`, `andres`, `camila`; poses en `POSES`, caras sonrisa/feliz/habla/sorpresa/guino/duda/enojada). `camila` es la persona sentada en su escritorio. Usa `Cutout` o `person()` solo si la usuaria lo pide. Revisa en capturas que los brazos no tapen textos ni se salgan del cuadro.
 - **Marcas de reemplazo:** los archivos que cambian en cada video llevan `👉 AQUÍ SE REEMPLAZA ESTE CONTENIDO`. Al crear archivos nuevos que se reemplacen por video (escenas, guion), ponles la misma marca.
 - **Sincronía:** ancla todo a palabras de la voz, nunca a segundos fijos. El texto en pantalla debe usar palabras que la voz dice.

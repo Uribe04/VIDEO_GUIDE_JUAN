@@ -26,8 +26,8 @@ export function caratula(c: CanvasRenderingContext2D, t: number, t0: number, onB
     tape(c, -aW / 2 + 30, -70, 140, -0.5, undefined, 2);
   });
 
-  // "Insight Z"
-  const b = `Insight ${CARATULA.insight}`;
+  // "Insight Z" (o el texto tal cual si no es un número, p. ej. 'General' para el video general del aprendizaje)
+  const b = /^\d+$/.test(CARATULA.insight) ? `Insight ${CARATULA.insight}` : CARATULA.insight;
   const bW = measureText(c, b, 800, 104) + 150;
   at(c, 1010, 628 + float(t, 2, 5, 1.2), { s: pop(t, t0 + 0.6), r: 0.028 }, () => {
     tornPaper(c, bW, 164, C.amarillo, 5, { tear: 9 });
